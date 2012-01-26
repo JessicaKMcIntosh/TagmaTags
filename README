@@ -1,0 +1,15 @@
+This is the start of the project, more a proof of concept.
+
+I have not yet created documentation.
+
+Copy these files to your .vim or vimfiles directory.
+
+When editing Perl files the tags file in the perl subdirectory will be added to
+the tags file setting for the buffer.
+
+Using Vim tag functions such as Ctrl-] or Ctrl-W } (calls :ptjump, a very handy
+feature) will navigate to the location in the appropriate documentation file
+for a Perl function. 
+
+For the moment only a few Perl manuals have been setup. I will work on adding
+more and refining.
