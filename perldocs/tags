@@ -1,477 +1,438 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
--A	perlfunc.man	/^                -A
--B	perlfunc.man	/^                -B
--b	perlfunc.man	/^                -b
--C	perlfunc.man	/^                -C
--c	perlfunc.man	/^                -c
--d	perlfunc.man	/^                -d
--e	perlfunc.man	/^                -e
--f	perlfunc.man	/^                -f
--g	perlfunc.man	/^                -g
--k	perlfunc.man	/^                -k
--l	perlfunc.man	/^                -l
--M	perlfunc.man	/^                -M
--O	perlfunc.man	/^                -O
--o	perlfunc.man	/^                -o
--p	perlfunc.man	/^                -p
--R	perlfunc.man	/^                -R
--r	perlfunc.man	/^                -r
--S	perlfunc.man	/^                -S
--s	perlfunc.man	/^                -s
--T	perlfunc.man	/^                -T
--t	perlfunc.man	/^                -t
--u	perlfunc.man	/^                -u
--W	perlfunc.man	/^                -W
--w	perlfunc.man	/^                -w
--X	perlfunc.man	/^                -X
--x	perlfunc.man	/^                -x
--z	perlfunc.man	/^                -z
-_exit	posix.man	/^    _exit
-A	perlfunc.man	/^                -A
-abort	posix.man	/^    abort
-abs	perlfunc.man	/^    abs
-abs_path	cwd.man	/^    abs_path
-accept	perlfunc.man	/^    accept
-access	posix.man	/^    access
-acos	posix.man	/^    acos
-alarm	perlfunc.man	/^    alarm
-asctime	posix.man	/^    asctime
-asin	posix.man	/^    asin
-assert	posix.man	/^    assert
-atan	posix.man	/^    atan
-atan2	perlfunc.man	/^    atan2
-atexit	posix.man	/^    atexit
-atof	posix.man	/^    atof
-atoi	posix.man	/^    atoi
-atol	posix.man	/^    atol
-B	perlfunc.man	/^                -B
-b	perlfunc.man	/^                -b
-basename	filebasename.man	/^    "basename"
-bind	perlfunc.man	/^    bind
-binmode	perlfunc.man	/^    binmode
-bless	perlfunc.man	/^    bless
-bsearch	posix.man	/^    bsearch
-C	perlfunc.man	/^                -C
-c	perlfunc.man	/^                -c
-caller	perlfunc.man	/^    caller
-calloc	posix.man	/^    calloc
-carp	carp.man	/^    carp
-case	switch.man	/^    Switch
-ceil	posix.man	/^    ceil
-chdir	perlfunc.man	/^    chdir
-chmod	perlfunc.man	/^    chmod
-chomp	perlfunc.man	/^    chomp
-chop	perlfunc.man	/^    chop
-chown	perlfunc.man	/^    chown
-chr	perlfunc.man	/^    chr
-chroot	perlfunc.man	/^    chroot
-clearerr	posix.man	/^    clearerr
-clock	posix.man	/^    clock
-close	perlfunc.man	/^    close
-closedir	perlfunc.man	/^    closedir
-cluck	carp.man	/^    cluck
-compare	filecompare.man	/^    The File::Compare::compare
-compare_text	filecompare.man	/^    File::Compare::compare_text
-confess	carp.man	/^    confess
-connect	perlfunc.man	/^    connect
-continue	perlfunc.man	/^    continue
-copy	filecopy.man	/^    copy
-cos	perlfunc.man	/^    cos
-cos	posix.man	/^    cos
-creat	posix.man	/^    creat
-croak	carp.man	/^    croak
-crypt	perlfunc.man	/^    crypt
-ctermid	posix.man	/^    ctermid
-ctime	posix.man	/^    ctime
-cuserid	posix.man	/^    cuserid
-cwd	cwd.man	/^    cwd
-d	perlfunc.man	/^                -d
-dbmclose	perlfunc.man	/^    dbmclose
-dbmopen	perlfunc.man	/^    dbmopen
-defined	perlfunc.man	/^    defined
-delete	perlfunc.man	/^    delete
-die	perlfunc.man	/^    die
-difftime	posix.man	/^    difftime
-dirname	filebasename.man	/^    "dirname"
-div	posix.man	/^    div
-do	perlfunc.man	/^    do
-dump	perlfunc.man	/^    dump
-Dumper	datadumper.man	/^    Dumper
-dup	posix.man	/^    dup
-dup2	posix.man	/^    dup2
-e	perlfunc.man	/^                -e
-each	perlfunc.man	/^    each
-endgrent	perlfunc.man	/^    endgrent
-endhostent	perlfunc.man	/^    endhostent
-endnetent	perlfunc.man	/^    endnetent
-endprotoent	perlfunc.man	/^    endprotoent
-endpwent	perlfunc.man	/^    endpwent
-endservent	perlfunc.man	/^    endservent
-eof	perlfunc.man	/^    eof
-errno	posix.man	/^    errno
-eval	perlfunc.man	/^    eval
-exec	perlfunc.man	/^    exec
-execl	posix.man	/^    execl
-execle	posix.man	/^    execle
-execlp	posix.man	/^    execlp
-execv	posix.man	/^    execv
-execve	posix.man	/^    execve
-execvp	posix.man	/^    execvp
-exists	perlfunc.man	/^    exists
-exit	perlfunc.man	/^    exit
-exp	perlfunc.man	/^    exp
-f	perlfunc.man	/^                -f
-fabs	posix.man	/^    fabs
-fast_abs_path	cwd.man	/^    fast_abs_path
-fastcwd	cwd.man	/^    fastcwd
-fastgetcwd	cwd.man	/^    fastgetcwd
-fclose	posix.man	/^    fclose
-fcntl	perlfunc.man	/^    fcntl
-fdopen	posix.man	/^    fdopen
-feof	posix.man	/^    feof
-ferror	posix.man	/^    ferror
-fflush	posix.man	/^    fflush
-fgetc	posix.man	/^    fgetc
-fgetpos	posix.man	/^    fgetpos
-fgets	posix.man	/^    fgets
-fileno	perlfunc.man	/^    fileno
-fileparse	filebasename.man	/^    "fileparse"
-fileparse_set_fstype	filebasename.man	/^    "fileparse_set_fstype"
-find	filefind.man	/^    find
-finddepth	filefind.man	/^    finddepth
-flock	perlfunc.man	/^    flock
-floor	posix.man	/^    floor
-fmod	posix.man	/^    fmod
-fopen	posix.man	/^    fopen
-fork	perlfunc.man	/^    fork
-format	perlfunc.man	/^    format
-formline	perlfunc.man	/^    formline
-fpathconf	posix.man	/^    fpathconf
-fprintf	posix.man	/^    fprintf
-fputc	posix.man	/^    fputc
-fputs	posix.man	/^    fputs
-fread	posix.man	/^    fread
-free	posix.man	/^    free
-freopen	posix.man	/^    freopen
-frexp	posix.man	/^    frexp
-fscanf	posix.man	/^    fscanf
-fseek	posix.man	/^    fseek
-fsetpos	posix.man	/^    fsetpos
-fstat	posix.man	/^    fstat
-fsync	posix.man	/^    fsync
-ftell	posix.man	/^    ftell
-fwrite	posix.man	/^    fwrite
-g	perlfunc.man	/^                -g
-getc	perlfunc.man	/^    getc
-getchar	posix.man	/^    getchar
-getcwd	cwd.man	/^    getcwd
-getdcwd	cwd.man	/^    getdcwd
-getegid	posix.man	/^    getegid
-getenv	posix.man	/^    getenv
-geteuid	posix.man	/^    geteuid
-getgid	posix.man	/^    getgid
-getgrent	perlfunc.man	/^    getgrent
-getgrgid	perlfunc.man	/^    getgrgid
-getgrnam	perlfunc.man	/^    getgrnam
-getgroups	posix.man	/^    getgroups
-gethostbyaddr	perlfunc.man	/^    gethostbyaddr
-gethostbyname	perlfunc.man	/^    gethostbyname
-gethostent	perlfunc.man	/^    gethostent
-getlogin	perlfunc.man	/^    getlogin
-getnetbyaddr	perlfunc.man	/^    getnetbyaddr
-getnetbyname	perlfunc.man	/^    getnetbyname
-getnetent	perlfunc.man	/^    getnetent
-getopt	getoptstd.man	/^        getopt
-GetOptions	getoptlong.man	/^    Getopt::Long
-getopts	getoptstd.man	/^        getopts
-getpeername	perlfunc.man	/^    getpeername
-getpgrp	perlfunc.man	/^    getpgrp
-getpid	posix.man	/^    getpid
-getppid	perlfunc.man	/^    getppid
-getpriority	perlfunc.man	/^    getpriority
-getprotobyname	perlfunc.man	/^    getprotobyname
-getprotobynumber	perlfunc.man	/^    getprotobynumber
-getprotoent	perlfunc.man	/^    getprotoent
-getpwent	perlfunc.man	/^    getpwent
-getpwnam	perlfunc.man	/^    getpwnam
-getpwuid	perlfunc.man	/^    getpwuid
-gets	posix.man	/^    gets
-getservbyname	perlfunc.man	/^    getservbyname
-getservbyport	perlfunc.man	/^    getservbyport
-getservent	perlfunc.man	/^    getservent
-getsockname	perlfunc.man	/^    getsockname
-getsockopt	perlfunc.man	/^    getsockopt
-getuid	posix.man	/^    getuid
-glob	perlfunc.man	/^    glob
-gmtime	perlfunc.man	/^    gmtime
-goto	perlfunc.man	/^    goto
-grep	perlfunc.man	/^    grep
-hex	perlfunc.man	/^    hex
-import	perlfunc.man	/^    import
-index	perlfunc.man	/^    index
-int	perlfunc.man	/^    int
-ioctl	perlfunc.man	/^    ioctl
-isalnum	posix.man	/^    isalnum
-isalpha	posix.man	/^    isalpha
-isatty	posix.man	/^    isatty
-iscntrl	posix.man	/^    iscntrl
-isdigit	posix.man	/^    isdigit
-isgraph	posix.man	/^    isgraph
-islower	posix.man	/^    islower
-isprint	posix.man	/^    isprint
-ispunct	posix.man	/^    ispunct
-isspace	posix.man	/^    isspace
-isupper	posix.man	/^    isupper
-isxdigit	posix.man	/^    isxdigit
-join	perlfunc.man	/^    join
-k	perlfunc.man	/^                -k
-keys	perlfunc.man	/^    keys
-kill	perlfunc.man	/^    kill
-l	perlfunc.man	/^                -l
-labs	posix.man	/^    labs
-last	perlfunc.man	/^    last
-lc	perlfunc.man	/^    lc
-lcfirst	perlfunc.man	/^    lcfirst
-ldexp	posix.man	/^    ldexp
-ldiv	posix.man	/^    ldiv
-length	perlfunc.man	/^    length
-link	perlfunc.man	/^    link
-listen	perlfunc.man	/^    listen
-local	perlfunc.man	/^    local
-localeconv	posix.man	/^    localeconv
-localtime	perlfunc.man	/^    localtime
-lock	perlfunc.man	/^    lock
-log	perlfunc.man	/^    log
-log10	posix.man	/^    log10
-longjmp	posix.man	/^    longjmp
-lseek	posix.man	/^    lseek
-lstat	perlfunc.man	/^    lstat
-M	perlfunc.man	/^                -M
-m	perlfunc.man	/^    m
-make_path	filepath.man	/^    make_path
-malloc	posix.man	/^    malloc
-map	perlfunc.man	/^    map
-mblen	posix.man	/^    mblen
-mbstowcs	posix.man	/^    mbstowcs
-mbtowc	posix.man	/^    mbtowc
-memchr	posix.man	/^    memchr
-memcmp	posix.man	/^    memcmp
-memcpy	posix.man	/^    memcpy
-memmove	posix.man	/^    memmove
-memset	posix.man	/^    memset
-mkdir	perlfunc.man	/^    mkdir
-mkfifo	posix.man	/^    mkfifo
-mkpath	filepath.man	/^    mkpath
-mktime	posix.man	/^    mktime
-modf	posix.man	/^    modf
-move	filecopy.man	/^    move
-msgctl	perlfunc.man	/^    msgctl
-msgget	perlfunc.man	/^    msgget
-msgrcv	perlfunc.man	/^    msgrcv
-msgsnd	perlfunc.man	/^    msgsnd
-my	perlfunc.man	/^    my
-next	perlfunc.man	/^    next
-nice	posix.man	/^    nice
-no	perlfunc.man	/^    no
-O	perlfunc.man	/^                -O
-o	perlfunc.man	/^                -o
-oct	perlfunc.man	/^    oct
-offsetof	posix.man	/^    offsetof
-open	perlfunc.man	/^    open
-opendir	perlfunc.man	/^    opendir
-ord	perlfunc.man	/^    ord
-our	perlfunc.man	/^    our
-p	perlfunc.man	/^                -p
-pack	perlfunc.man	/^    pack
-package	perlfunc.man	/^    package
-pathconf	posix.man	/^    pathconf
-pause	posix.man	/^    pause
-perror	posix.man	/^    perror
-pipe	perlfunc.man	/^    pipe
-pop	perlfunc.man	/^    pop
-pos	perlfunc.man	/^    pos
-pow	posix.man	/^    pow
-print	perlfunc.man	/^    print
-printf	perlfunc.man	/^    printf
-prototype	perlfunc.man	/^    prototype
-push	perlfunc.man	/^    push
-putc	posix.man	/^    putc
-putchar	posix.man	/^    putchar
-puts	posix.man	/^    puts
-q	perlfunc.man	/^    q
-qq	perlfunc.man	/^    qq
-qr	perlfunc.man	/^    qr
-qsort	posix.man	/^    qsort
-quotemeta	perlfunc.man	/^    quotemeta
-qw	perlfunc.man	/^    qw
-qx	perlfunc.man	/^    qx
-R	perlfunc.man	/^                -R
-r	perlfunc.man	/^                -r
-raise	posix.man	/^    raise
-rand	perlfunc.man	/^    rand
-read	perlfunc.man	/^    read
-readdir	perlfunc.man	/^    readdir
-readline	perlfunc.man	/^    readline
-readlink	perlfunc.man	/^    readlink
-readpipe	perlfunc.man	/^    readpipe
-realloc	posix.man	/^    realloc
-realpath	cwd.man	/^    realpath
-recv	perlfunc.man	/^    recv
-redo	perlfunc.man	/^    redo
-ref	perlfunc.man	/^    ref
-remove	posix.man	/^    remove
-remove_tree	filepath.man	/^    remove_tree
-rename	perlfunc.man	/^    rename
-require	perlfunc.man	/^    require
-reset	perlfunc.man	/^    reset
-return	perlfunc.man	/^    return
-reverse	perlfunc.man	/^    reverse
-rewind	posix.man	/^    rewind
-rewinddir	perlfunc.man	/^    rewinddir
-rindex	perlfunc.man	/^    rindex
-rmdir	perlfunc.man	/^    rmdir
-rmscopy	filecopy.man	/^    rmscopy
-rmtree	filepath.man	/^    rmtree
-S	perlfunc.man	/^                -S
-s	perlfunc.man	/^                -s
-s	perlfunc.man	/^    s
-scalar	perlfunc.man	/^    scalar
-scanf	posix.man	/^    scanf
-seek	perlfunc.man	/^    seek
-seekdir	perlfunc.man	/^    seekdir
-select	perlfunc.man	/^    select
-semctl	perlfunc.man	/^    semctl
-semget	perlfunc.man	/^    semget
-semop	perlfunc.man	/^    semop
-send	perlfunc.man	/^    send
-setgid	posix.man	/^    setgid
-setgrent	perlfunc.man	/^    setgrent
-sethostent	perlfunc.man	/^    sethostent
-setjmp	posix.man	/^    setjmp
-setlocale	posix.man	/^    setlocale
-setnetent	perlfunc.man	/^    setnetent
-setpgid	posix.man	/^    setpgid
-setpgrp	perlfunc.man	/^    setpgrp
-setpriority	perlfunc.man	/^    setpriority
-setprotoent	perlfunc.man	/^    setprotoent
-setpwent	perlfunc.man	/^    setpwent
-setservent	perlfunc.man	/^    setservent
-setsid	posix.man	/^    setsid
-setsockopt	perlfunc.man	/^    setsockopt
-setuid	posix.man	/^    setuid
-shift	perlfunc.man	/^    shift
-shmctl	perlfunc.man	/^    shmctl
-shmget	perlfunc.man	/^    shmget
-shmread	perlfunc.man	/^    shmread
-shmwrite	perlfunc.man	/^    shmwrite
-shutdown	perlfunc.man	/^    shutdown
-sigaction	posix.man	/^    sigaction
-siglongjmp	posix.man	/^    siglongjmp
-sigpending	posix.man	/^    sigpending
-sigprocmask	posix.man	/^    sigprocmask
-sigsetjmp	posix.man	/^    sigsetjmp
-sigsuspend	posix.man	/^    sigsuspend
-sin	perlfunc.man	/^    sin
-sinh	posix.man	/^    sinh
-sleep	perlfunc.man	/^    sleep
-socket	perlfunc.man	/^    socket
-socketpair	perlfunc.man	/^    socketpair
-sort	perlfunc.man	/^    sort
-splice	perlfunc.man	/^    splice
-split	perlfunc.man	/^    split
-sprintf	perlfunc.man	/^    sprintf
-sqrt	perlfunc.man	/^    sqrt
-srand	perlfunc.man	/^    srand
-sscanf	posix.man	/^    sscanf
-stat	perlfunc.man	/^    stat
-strcat	posix.man	/^    strcat
-strchr	posix.man	/^    strchr
-strcmp	posix.man	/^    strcmp
-strcoll	posix.man	/^    strcoll
-strcpy	posix.man	/^    strcpy
-strcspn	posix.man	/^    strcspn
-strerror	posix.man	/^    strerror
-strftime	posix.man	/^    strftime
-strlen	posix.man	/^    strlen
-strncat	posix.man	/^    strncat
-strncmp	posix.man	/^    strncmp
-strncpy	posix.man	/^    strncpy
-strpbrk	posix.man	/^    strpbrk
-strrchr	posix.man	/^    strrchr
-strspn	posix.man	/^    strspn
-strstr	posix.man	/^    strstr
-strtod	posix.man	/^    strtod
-strtok	posix.man	/^    strtok
-strtol	posix.man	/^    strtol
-strtoul	posix.man	/^    strtoul
-strxfrm	posix.man	/^    strxfrm
-study	perlfunc.man	/^    study
-sub	perlfunc.man	/^    sub
-substr	perlfunc.man	/^    substr
-switch	switch.man	/^    Switch
-symlink	perlfunc.man	/^    symlink
-syscall	perlfunc.man	/^    syscall
-sysconf	posix.man	/^    sysconf
-syscopy	filecopy.man	/^    syscopy
-sysopen	perlfunc.man	/^    sysopen
-sysread	perlfunc.man	/^    sysread
-sysseek	perlfunc.man	/^    sysseek
-system	perlfunc.man	/^    system
-syswrite	perlfunc.man	/^    syswrite
-T	perlfunc.man	/^                -T
-t	perlfunc.man	/^                -t
-tan	posix.man	/^    tan
-tanh	posix.man	/^    tanh
-tcdrain	posix.man	/^    tcdrain
-tcflow	posix.man	/^    tcflow
-tcflush	posix.man	/^    tcflush
-tcgetpgrp	posix.man	/^    tcgetpgrp
-tcsendbreak	posix.man	/^    tcsendbreak
-tcsetpgrp	posix.man	/^    tcsetpgrp
-tell	perlfunc.man	/^    tell
-telldir	perlfunc.man	/^    telldir
-tie	perlfunc.man	/^    tie
-tied	perlfunc.man	/^    tied
-time	perlfunc.man	/^    time
-times	perlfunc.man	/^    times
-tmpfile	posix.man	/^    tmpfile
-tmpnam	posix.man	/^    tmpnam
-tolower	posix.man	/^    tolower
-toupper	posix.man	/^    toupper
-tr	perlfunc.man	/^    tr
-truncate	perlfunc.man	/^    truncate
-ttyname	posix.man	/^    ttyname
-tzname	posix.man	/^    tzname
-tzset	posix.man	/^    tzset
-u	perlfunc.man	/^                -u
-uc	perlfunc.man	/^    uc
-ucfirst	perlfunc.man	/^    ucfirst
-umask	perlfunc.man	/^    umask
-uname	posix.man	/^    uname
-undef	perlfunc.man	/^    undef
-ungetc	posix.man	/^    ungetc
-unlink	perlfunc.man	/^    unlink
-unpack	perlfunc.man	/^    unpack
-unshift	perlfunc.man	/^    unshift
-untie	perlfunc.man	/^    untie
-use	perlfunc.man	/^    use
-use 	use .man	/^    use 
-utime	perlfunc.man	/^    utime
-values	perlfunc.man	/^    values
-vec	perlfunc.man	/^    vec
-vfprintf	posix.man	/^    vfprintf
-vprintf	posix.man	/^    vprintf
-vsprintf	posix.man	/^    vsprintf
-W	perlfunc.man	/^                -W
-w	perlfunc.man	/^                -w
-wait	perlfunc.man	/^    wait
-waitpid	perlfunc.man	/^    waitpid
-wantarray	perlfunc.man	/^    wantarray
-warn	perlfunc.man	/^    warn
-wcstombs	posix.man	/^    wcstombs
-wctomb	posix.man	/^    wctomb
-write	perlfunc.man	/^    write
-X	perlfunc.man	/^                -X
-x	perlfunc.man	/^                -x
-y	perlfunc.man	/^    y
-z	perlfunc.man	/^                -z
+-A	perlfunc.man	/^                -A  Same for access time.$
+-B	perlfunc.man	/^                -B  File is a "binary" file (opposite of -T).$
+-b	perlfunc.man	/^                -b  File is a block special file.$
+-c	perlfunc.man	/^                -c  File is a character special file.$
+-C	perlfunc.man	/^                -C  Same for inode change time (Unix, may differ for other platforms)$
+-d	perlfunc.man	/^                -d  File is a directory.$
+-e	perlfunc.man	/^                -e  File exists.$
+-f	perlfunc.man	/^                -f  File is a plain file.$
+-g	perlfunc.man	/^                -g  File has setgid bit set.$
+-k	perlfunc.man	/^                -k  File has sticky bit set.$
+-l	perlfunc.man	/^                -l  File is a symbolic link.$
+-M	perlfunc.man	/^                -M  Script start time minus file modification time, in days.$
+-O	perlfunc.man	/^                -O  File is owned by real uid.$
+-o	perlfunc.man	/^                -o  File is owned by effective uid.$
+-p	perlfunc.man	/^                -p  File is a named pipe (FIFO), or Filehandle is a pipe.$
+-r	perlfunc.man	/^                -r  File is readable by effective uid/gid.$
+-R	perlfunc.man	/^                -R  File is readable by real uid/gid.$
+-s	perlfunc.man	/^                -s  File has nonzero size (returns size in bytes).$
+-S	perlfunc.man	/^                -S  File is a socket.$
+-t	perlfunc.man	/^                -t  Filehandle is opened to a tty.$
+-T	perlfunc.man	/^                -T  File is an ASCII text file (heuristic guess).$
+-u	perlfunc.man	/^                -u  File has setuid bit set.$
+-w	perlfunc.man	/^                -w  File is writable by effective uid/gid.$
+-W	perlfunc.man	/^                -W  File is writable by real uid/gid.$
+-x	perlfunc.man	/^                -x  File is executable by effective uid/gid.$
+-X	perlfunc.man	/^                -X  File is executable by real uid/gid.$
+-z	perlfunc.man	/^                -z  File has zero size (is empty).$
+A	perlfunc.man	/^                -A  Same for access time.$
+abbrev	textabbrev.man	/^        abbrev $hashref, LIST$
+abs	perlfunc.man	/^    abs VALUE$
+abs_path	cwd.man	/^    abs_path$
+accept	perlfunc.man	/^    accept NEWSOCKET,GENERICSOCKET$
+alarm	perlfunc.man	/^    alarm SECONDS$
+all_keys	hashutil.man	/^    all_keys$
+atan2	perlfunc.man	/^    atan2 Y,X$
+autosplit	autosplit.man	/^     autosplit($file, $dir, $keep, $check, $modtime);$
+autosplit_lib_modules	autosplit.man	/^     autosplit_lib_modules(@modules);$
+B	perlfunc.man	/^                -B  File is a "binary" file (opposite of -T).$
+b	perlfunc.man	/^                -b  File is a block special file.$
+BAIL_OUT	testmore.man	/^    BAIL_OUT$
+basename	filebasename.man	/^    "basename"$
+bind	perlfunc.man	/^    bind SOCKET,NAME$
+binmode	perlfunc.man	/^    binmode FILEHANDLE, LAYER$
+bless	perlfunc.man	/^    bless REF,CLASSNAME$
+blessed	scalarutil.man	/^    blessed EXPR$
+break	perlfunc.man	/^    break   Break out of a "given()" block.$
+builder	testmore.man	/^    builder$
+C	perlfunc.man	/^                -C  Same for inode change time (Unix, may differ for other platforms)$
+c	perlfunc.man	/^                -c  File is a character special file.$
+caller	perlfunc.man	/^    caller EXPR$
+can_ok	testmore.man	/^    can_ok$
+carp	carp.man	/^    carp - warn of errors (from perspective of caller)$
+case	switch.man	/^            case 1          { print "number 1" }$
+catch	error.man	/^    catch CLASS with BLOCK$
+chdir	perlfunc.man	/^    chdir EXPR$
+chmod	perlfunc.man	/^    chmod LIST$
+chomp	perlfunc.man	/^    chomp VARIABLE$
+chop	perlfunc.man	/^    chop VARIABLE$
+chown	perlfunc.man	/^    chown LIST$
+chr	perlfunc.man	/^    chr NUMBER$
+chroot	perlfunc.man	/^    chroot FILENAME$
+clearallcache	benchmark.man	/^    clearallcache ( )$
+clearcache	benchmark.man	/^    clearcache ( COUNT )$
+close	perlfunc.man	/^    close FILEHANDLE$
+closedir	perlfunc.man	/^    closedir DIRHANDLE$
+cluck	carp.man	/^    cluck - warn of errors with stack backtrace (not exported by default)$
+cmp	filecompare.man	/^    File::Compare::cmp is a synonym for File::Compare::compare. It is$
+cmpthese	benchmark.man	/^    cmpthese ( COUNT, CODEHASHREF, [ STYLE ] )$
+cmp_ok	testmore.man	/^    cmp_ok$
+compare	filecompare.man	/^    The File::Compare::compare function compares the contents of two$
+compare_text	filecompare.man	/^    File::Compare::compare_text does a line by line comparison of the two$
+confess	carp.man	/^    confess - die of errors with stack backtrace$
+connect	perlfunc.man	/^    connect SOCKET,NAME$
+continue	perlfunc.man	/^    continue BLOCK$
+copy	filecopy.man	/^    copy$
+cos	perlfunc.man	/^    cos EXPR$
+countit	benchmark.man	/^    countit(TIME, CODE)$
+croak	carp.man	/^    croak - die of errors (from perspective of caller)$
+crypt	perlfunc.man	/^    crypt PLAINTEXT,SALT$
+cwd	cwd.man	/^    cwd$
+d	perlfunc.man	/^                -d  File is a directory.$
+dbmclose	perlfunc.man	/^    dbmclose HASH$
+dbmopen	perlfunc.man	/^    dbmopen HASH,DBNAME,MASK$
+defined	perlfunc.man	/^    defined EXPR$
+delete	perlfunc.man	/^    delete EXPR$
+delete_package	symbol.man	/^    "Symbol::delete_package" wipes out a whole package namespace. Note this$
+delimited_pat	textbalanced.man	/^  "delimited_pat"$
+diag	testmore.man	/^    diag$
+die	perlfunc.man	/^    die LIST$
+dirname	filebasename.man	/^    "dirname"$
+disablecache	benchmark.man	/^    disablecache ( )$
+do	perlfunc.man	/^    do BLOCK$
+done_testing	testmore.man	/^    done_testing$
+dualvar	scalarutil.man	/^    dualvar NUM, STRING$
+dump	perlfunc.man	/^    dump LABEL$
+Dumper	datadumper.man	/^        print Dumper($foo, $bar);$
+e	perlfunc.man	/^                -e  File exists.$
+each	perlfunc.man	/^    each HASH$
+enablecache	benchmark.man	/^    enablecache ( )$
+endgrent	perlfunc.man	/^    endgrent$
+endhostent	perlfunc.man	/^    endhostent$
+endnetent	perlfunc.man	/^    endnetent$
+endprotoent	perlfunc.man	/^    endprotoent$
+endpwent	perlfunc.man	/^    endpwent$
+endservent	perlfunc.man	/^    endservent$
+eof	perlfunc.man	/^    eof FILEHANDLE$
+eq_array	testmore.man	/^    eq_array$
+eq_hash	testmore.man	/^    eq_hash$
+eq_set	testmore.man	/^    eq_set$
+eval	perlfunc.man	/^    eval EXPR$
+except	error.man	/^    except BLOCK$
+exec	perlfunc.man	/^    exec LIST$
+execute_tests	testharness.man	/^  execute_tests( tests => \@test_files, out => \*FH )$
+exists	perlfunc.man	/^    exists EXPR$
+exit	perlfunc.man	/^    exit EXPR$
+exp	perlfunc.man	/^    exp EXPR$
+expand	texttabs.man	/^      @lines_without_tabs = expand(@lines_with_tabs);$
+explain	testmore.man	/^    explain$
+extract_bracketed	textbalanced.man	/^  "extract_bracketed"$
+extract_codeblock	textbalanced.man	/^  "extract_codeblock"$
+extract_delimited	textbalanced.man	/^  "extract_delimited"$
+extract_multiple	textbalanced.man	/^  "extract_multiple"$
+extract_quotelike	textbalanced.man	/^  "extract_quotelike"$
+extract_tagged	textbalanced.man	/^  "extract_tagged"$
+extract_variable	textbalanced.man	/^  "extract_variable"$
+f	perlfunc.man	/^                -f  File is a plain file.$
+fail	testmore.man	/^    fail$
+fastcwd	cwd.man	/^    fastcwd$
+fastgetcwd	cwd.man	/^    fastgetcwd$
+fast_abs_path	cwd.man	/^    fast_abs_path$
+fcntl	perlfunc.man	/^    fcntl FILEHANDLE,FUNCTION,SCALAR$
+fileno	perlfunc.man	/^    fileno FILEHANDLE$
+fileparse	filebasename.man	/^    "fileparse"$
+fileparse_set_fstype	filebasename.man	/^    "fileparse_set_fstype"$
+fill	textwrap.man	/^    Text::Wrap::fill() is a simple multi-paragraph formatter. It formats$
+finally	error.man	/^    finally BLOCK$
+find	filefind.man	/^        find(\&wanted, @directories_to_search);$
+finddepth	filefind.man	/^        finddepth(\&wanted, @directories_to_search);$
+first	listutil.man	/^    first BLOCK LIST$
+flock	perlfunc.man	/^    flock FILEHANDLE,OPERATION$
+fork	perlfunc.man	/^    fork    Does a fork(2) system call to create a new process running the$
+format	perlfunc.man	/^    format  Declare a picture format for use by the "write" function. For$
+formline	perlfunc.man	/^    formline PICTURE,LIST$
+g	perlfunc.man	/^                -g  File has setgid bit set.$
+geniosym	symbol.man	/^    "Symbol::geniosym" creates an anonymous IO handle. This can be assigned$
+gensym	symbol.man	/^    "Symbol::gensym" creates an anonymous glob and returns a reference to$
+gen_delimited_pat	textbalanced.man	/^  "gen_delimited_pat"$
+gen_extract_tagged	textbalanced.man	/^  "gen_extract_tagged"$
+getc	perlfunc.man	/^    getc FILEHANDLE$
+getcwd	cwd.man	/^    getcwd$
+getdcwd	cwd.man	/^    getdcwd$
+getgrent	perlfunc.man	/^    getgrent$
+getgrgid	perlfunc.man	/^    getgrgid GID$
+getgrnam	perlfunc.man	/^    getgrnam NAME$
+gethostbyaddr	perlfunc.man	/^    gethostbyaddr ADDR,ADDRTYPE$
+gethostbyname	perlfunc.man	/^    gethostbyname NAME$
+gethostent	perlfunc.man	/^    gethostent$
+getlogin	perlfunc.man	/^    getlogin$
+getnetbyaddr	perlfunc.man	/^    getnetbyaddr ADDR,ADDRTYPE$
+getnetbyname	perlfunc.man	/^    getnetbyname NAME$
+getnetent	perlfunc.man	/^    getnetent$
+getopt	getoptstd.man	/^        getopt('oDI');    # -o, -D & -I take arg.  Sets $opt_* as a side effect.$
+GetOptions	getoptlong.man	/^      $result = GetOptions ("length=i" => \$length,    # numeric$
+getopts	getoptstd.man	/^        getopts('oif:');  # -o & -i are boolean flags, -f takes an argument$
+getpeername	perlfunc.man	/^    getpeername SOCKET$
+getpgrp	perlfunc.man	/^    getpgrp PID$
+getppid	perlfunc.man	/^    getppid Returns the process id of the parent process.$
+getpriority	perlfunc.man	/^    getpriority WHICH,WHO$
+getprotobyname	perlfunc.man	/^    getprotobyname NAME$
+getprotobynumber	perlfunc.man	/^    getprotobynumber NUMBER$
+getprotoent	perlfunc.man	/^    getprotoent$
+getpwent	perlfunc.man	/^    getpwent$
+getpwnam	perlfunc.man	/^    getpwnam NAME$
+getpwuid	perlfunc.man	/^    getpwuid UID$
+getservbyname	perlfunc.man	/^    getservbyname NAME,PROTO$
+getservbyport	perlfunc.man	/^    getservbyport PORT,PROTO$
+getservent	perlfunc.man	/^    getservent$
+getsockname	perlfunc.man	/^    getsockname SOCKET$
+getsockopt	perlfunc.man	/^    getsockopt SOCKET,LEVEL,OPTNAME$
+glob	perlfunc.man	/^    glob EXPR$
+gmtime	perlfunc.man	/^    gmtime EXPR$
+goto	perlfunc.man	/^    goto LABEL$
+grep	perlfunc.man	/^    grep BLOCK LIST$
+hash_ref_unlocked	hashutil.man	/^    hash_ref_unlocked$
+hash_seed	hashutil.man	/^    hash_seed$
+hash_unlocked	hashutil.man	/^    hash_unlocked$
+hex	perlfunc.man	/^    hex EXPR$
+hidden_keys	hashutil.man	/^    hidden_keys$
+hidden_ref_keys	hashutil.man	/^    hidden_ref_keys$
+hv_store	hashutil.man	/^    hv_store$
+import	perlfunc.man	/^    import LIST$
+index	perlfunc.man	/^    index STR,SUBSTR,POSITION$
+int	perlfunc.man	/^    int EXPR$
+ioctl	perlfunc.man	/^    ioctl FILEHANDLE,FUNCTION,SCALAR$
+is	testmore.man	/^    is$
+isa_ok	testmore.man	/^    isa_ok$
+isnt	testmore.man	/^    isnt$
+isvstring	scalarutil.man	/^    isvstring EXPR$
+isweak	scalarutil.man	/^    isweak EXPR$
+is_deeply	testmore.man	/^    is_deeply$
+join	perlfunc.man	/^    join EXPR,LIST$
+k	perlfunc.man	/^                -k  File has sticky bit set.$
+keys	perlfunc.man	/^    keys HASH$
+kill	perlfunc.man	/^    kill SIGNAL, LIST$
+l	perlfunc.man	/^                -l  File is a symbolic link.$
+last	perlfunc.man	/^    last LABEL$
+lc	perlfunc.man	/^    lc EXPR$
+lcfirst	perlfunc.man	/^    lcfirst EXPR$
+legal_keys	hashutil.man	/^    legal_keys$
+legal_ref_keys	hashutil.man	/^    legal_ref_keys$
+length	perlfunc.man	/^    length EXPR$
+like	testmore.man	/^    like$
+link	perlfunc.man	/^    link OLDFILE,NEWFILE$
+listen	perlfunc.man	/^    listen SOCKET,QUEUESIZE$
+local	perlfunc.man	/^    local EXPR$
+localtime	perlfunc.man	/^    localtime EXPR$
+lock	perlfunc.man	/^    lock THING$
+lock_hash	hashutil.man	/^    lock_hash$
+lock_hashref	hashutil.man	/^    lock_hashref$
+lock_hashref_recurse	hashutil.man	/^    lock_hashref_recurse$
+lock_hash_recurse	hashutil.man	/^    lock_hash_recurse$
+lock_keys	hashutil.man	/^    lock_keys$
+lock_keys_plus	hashutil.man	/^    lock_keys_plus$
+lock_ref_keys	hashutil.man	/^    lock_ref_keys$
+lock_ref_keys_plus	hashutil.man	/^    lock_ref_keys_plus$
+lock_ref_value	hashutil.man	/^    lock_ref_value$
+lock_value	hashutil.man	/^    lock_value$
+log	perlfunc.man	/^    log EXPR$
+look	searchdict.man	/^        look *FILEHANDLE, $key, $dict, $fold;$
+looks_like_number	scalarutil.man	/^    looks_like_number EXPR$
+lstat	perlfunc.man	/^    lstat EXPR$
+M	perlfunc.man	/^                -M  Script start time minus file modification time, in days.$
+m	perlfunc.man	/^    m//     The match operator. See "Regexp Quote-Like Operators" in perlop.$
+make_path	filepath.man	/^    make_path( $dir1, $dir2, .... )$
+map	perlfunc.man	/^    map BLOCK LIST$
+max	listutil.man	/^    max LIST$
+maxstr	listutil.man	/^    maxstr LIST$
+min	listutil.man	/^    min LIST$
+minstr	listutil.man	/^    minstr LIST$
+mkdir	perlfunc.man	/^    mkdir FILENAME,MASK$
+mkpath	filepath.man	/^    mkpath( $dir )$
+move	filecopy.man	/^    move$
+msgctl	perlfunc.man	/^    msgctl ID,CMD,ARG$
+msgget	perlfunc.man	/^    msgget KEY,FLAGS$
+msgrcv	perlfunc.man	/^    msgrcv ID,VAR,SIZE,TYPE,FLAGS$
+msgsnd	perlfunc.man	/^    msgsnd ID,MSG,FLAGS$
+my	perlfunc.man	/^    my EXPR$
+nested_quotewords	textparsewords.man	/^      @lists = nested_quotewords($delim, $keep, @lines);$
+new_ok	testmore.man	/^    new_ok$
+next	perlfunc.man	/^    next LABEL$
+no	perlfunc.man	/^    no Module VERSION LIST$
+note	testmore.man	/^    note$
+o	perlfunc.man	/^                -o  File is owned by effective uid.$
+O	perlfunc.man	/^                -O  File is owned by real uid.$
+oct	perlfunc.man	/^    oct EXPR$
+ok	test.man	/^    "ok(...)"$
+old_shellwords	textparsewords.man	/^      @words = old_shellwords(@lines); # DEPRECATED!$
+open	perlfunc.man	/^    open FILEHANDLE,EXPR$
+opendir	perlfunc.man	/^    opendir DIRHANDLE,EXPR$
+openhandle	scalarutil.man	/^    openhandle FH$
+or	testmore.man	/^    or$
+ord	perlfunc.man	/^    ord EXPR$
+otherwise	error.man	/^    otherwise BLOCK$
+our	perlfunc.man	/^    our EXPR$
+p	perlfunc.man	/^                -p  File is a named pipe (FIFO), or Filehandle is a pipe.$
+pack	perlfunc.man	/^    pack TEMPLATE,LIST$
+package	perlfunc.man	/^    package NAMESPACE$
+parse_dir	filelisting.man	/^     $dir = parse_dir(\*LISTING, '+0000');$
+parse_line	textparsewords.man	/^      @words = parse_line($delim, $keep, $line);$
+pass	testmore.man	/^    pass$
+pipe	perlfunc.man	/^    pipe READHANDLE,WRITEHANDLE$
+plan	test.man	/^    "plan(...)"$
+pop	perlfunc.man	/^    pop ARRAY$
+pos	perlfunc.man	/^    pos SCALAR$
+print	perlfunc.man	/^    print FILEHANDLE LIST$
+printf	perlfunc.man	/^    printf FILEHANDLE FORMAT, LIST$
+prototype	perlfunc.man	/^    prototype FUNCTION$
+push	perlfunc.man	/^    push ARRAY,LIST$
+q	perlfunc.man	/^    q/STRING/$
+qq	perlfunc.man	/^    qq/STRING/$
+qr	perlfunc.man	/^    qr/STRING/$
+qualify	symbol.man	/^    "Symbol::qualify" turns unqualified symbol names into qualified variable$
+qualify_to_ref	symbol.man	/^    "Symbol::qualify_to_ref" is just like "Symbol::qualify" except that it$
+quotemeta	perlfunc.man	/^    quotemeta EXPR$
+quotewords	textparsewords.man	/^      @words = quotewords($delim, $keep, @lines);$
+qw	perlfunc.man	/^    qw/STRING/$
+qx	perlfunc.man	/^    qx/STRING/$
+R	perlfunc.man	/^                -R  File is readable by real uid/gid.$
+r	perlfunc.man	/^                -r  File is readable by effective uid/gid.$
+rand	perlfunc.man	/^    rand EXPR$
+read	perlfunc.man	/^    read FILEHANDLE,SCALAR,LENGTH,OFFSET$
+readdir	perlfunc.man	/^    readdir DIRHANDLE$
+readline	perlfunc.man	/^    readline EXPR$
+readlink	perlfunc.man	/^    readlink EXPR$
+readonly	scalarutil.man	/^    readonly SCALAR$
+readpipe	perlfunc.man	/^    readpipe EXPR$
+realpath	cwd.man	/^    realpath$
+recv	perlfunc.man	/^    recv SOCKET,SCALAR,LENGTH,FLAGS$
+redo	perlfunc.man	/^    redo LABEL$
+reduce	listutil.man	/^    reduce BLOCK LIST$
+ref	perlfunc.man	/^    ref EXPR$
+refaddr	scalarutil.man	/^    refaddr EXPR$
+reftype	scalarutil.man	/^    reftype EXPR$
+remove_tree	filepath.man	/^    remove_tree( $dir1, $dir2, .... )$
+rename	perlfunc.man	/^    rename OLDNAME,NEWNAME$
+require	perlfunc.man	/^    require VERSION$
+require_ok	testmore.man	/^    require_ok$
+reset	perlfunc.man	/^    reset EXPR$
+return	perlfunc.man	/^    return EXPR$
+reverse	perlfunc.man	/^    reverse LIST$
+rewinddir	perlfunc.man	/^    rewinddir DIRHANDLE$
+rindex	perlfunc.man	/^    rindex STR,SUBSTR,POSITION$
+rmdir	perlfunc.man	/^    rmdir FILENAME$
+rmscopy	filecopy.man	/^    rmscopy($from,$to[,$date_flag])$
+rmtree	filepath.man	/^    rmtree( $dir )$
+runtests	testharness.man	/^  runtests( @test_files )$
+S	perlfunc.man	/^                -S  File is a socket.$
+s	perlfunc.man	/^    s///    The substitution operator. See "Regexp Quote-Like Operators" in$
+say	perlfunc.man	/^    say FILEHANDLE LIST$
+scalar	perlfunc.man	/^    scalar EXPR$
+seek	perlfunc.man	/^    seek FILEHANDLE,POSITION,WHENCE$
+seekdir	perlfunc.man	/^    seekdir DIRHANDLE,POS$
+select	perlfunc.man	/^    select FILEHANDLE$
+semctl	perlfunc.man	/^    semctl ID,SEMNUM,CMD,ARG$
+semget	perlfunc.man	/^    semget KEY,NSEMS,FLAGS$
+semop	perlfunc.man	/^    semop KEY,OPSTRING$
+send	perlfunc.man	/^    send SOCKET,MSG,FLAGS,TO$
+setgrent	perlfunc.man	/^    setgrent$
+sethostent	perlfunc.man	/^    sethostent STAYOPEN$
+setnetent	perlfunc.man	/^    setnetent STAYOPEN$
+setpgrp	perlfunc.man	/^    setpgrp PID,PGRP$
+setpriority	perlfunc.man	/^    setpriority WHICH,WHO,PRIORITY$
+setprotoent	perlfunc.man	/^    setprotoent STAYOPEN$
+setpwent	perlfunc.man	/^    setpwent$
+setservent	perlfunc.man	/^    setservent STAYOPEN$
+setsockopt	perlfunc.man	/^    setsockopt SOCKET,LEVEL,OPTNAME,OPTVAL$
+set_prototype	scalarutil.man	/^    set_prototype CODEREF, PROTOTYPE$
+shellwords	textparsewords.man	/^      @words = shellwords(@lines);$
+shift	perlfunc.man	/^    shift ARRAY$
+shmctl	perlfunc.man	/^    shmctl ID,CMD,ARG$
+shmget	perlfunc.man	/^    shmget KEY,SIZE,FLAGS$
+shmread	perlfunc.man	/^    shmread ID,VAR,POS,SIZE$
+shmwrite	perlfunc.man	/^    shmwrite ID,STRING,POS,SIZE$
+shuffle	listutil.man	/^    shuffle LIST$
+shutdown	perlfunc.man	/^    shutdown SOCKET,HOW$
+sin	perlfunc.man	/^    sin EXPR$
+skip	test.man	/^    "skip(...)". By default, all three are exported by the "use Test;"$
+sleep	perlfunc.man	/^    sleep EXPR$
+socket	perlfunc.man	/^    socket SOCKET,DOMAIN,TYPE,PROTOCOL$
+socketpair	perlfunc.man	/^    socketpair SOCKET1,SOCKET2,DOMAIN,TYPE,PROTOCOL$
+sort	perlfunc.man	/^    sort SUBNAME LIST$
+soundex	textsoundex.man	/^      $code = soundex($name);    # Get the soundex code for a name.$
+soundex_nara	textsoundex.man	/^      $code = soundex_nara($name);    # Get the soundex code for a name.$
+splice	perlfunc.man	/^    splice ARRAY,OFFSET,LENGTH,LIST$
+split	perlfunc.man	/^    split /PATTERN/,EXPR,LIMIT$
+sprintf	perlfunc.man	/^    sprintf FORMAT, LIST$
+sqrt	perlfunc.man	/^    sqrt EXPR$
+srand	perlfunc.man	/^    srand EXPR$
+stat	perlfunc.man	/^    stat FILEHANDLE$
+state	perlfunc.man	/^    state EXPR$
+struct	classstruct.man	/^                # declare struct, based on array:$
+study	perlfunc.man	/^    study SCALAR$
+sub	perlfunc.man	/^    sub NAME BLOCK$
+substr	perlfunc.man	/^    substr EXPR,OFFSET,LENGTH,REPLACEMENT$
+sum	listutil.man	/^    sum LIST$
+switch	switch.man	/^        switch ($val) {$
+symlink	perlfunc.man	/^    symlink OLDFILE,NEWFILE$
+syscall	perlfunc.man	/^    syscall NUMBER, LIST$
+syscopy	filecopy.man	/^    syscopy$
+sysopen	perlfunc.man	/^    sysopen FILEHANDLE,FILENAME,MODE$
+sysread	perlfunc.man	/^    sysread FILEHANDLE,SCALAR,LENGTH,OFFSET$
+sysseek	perlfunc.man	/^    sysseek FILEHANDLE,POSITION,WHENCE$
+system	perlfunc.man	/^    system LIST$
+syswrite	perlfunc.man	/^    syswrite FILEHANDLE,SCALAR,LENGTH,OFFSET$
+T	perlfunc.man	/^                -T  File is an ASCII text file (heuristic guess).$
+t	perlfunc.man	/^                -t  Filehandle is opened to a tty.$
+tainted	scalarutil.man	/^    tainted EXPR$
+tell	perlfunc.man	/^    tell FILEHANDLE$
+telldir	perlfunc.man	/^    telldir DIRHANDLE$
+tempdir	filetemp.man	/^    tempdir$
+tempfile	filetemp.man	/^    tempfile$
+tie	perlfunc.man	/^    tie VARIABLE,CLASSNAME,LIST$
+tied	perlfunc.man	/^    tied VARIABLE$
+time	perlfunc.man	/^    time    Returns the number of non-leap seconds since whatever time the$
+timediff	benchmark.man	/^    timediff ( T1, T2 )$
+timeit	benchmark.man	/^    timeit(COUNT, CODE)$
+times	perlfunc.man	/^    times   Returns a four-element list giving the user and system times, in$
+timestr	benchmark.man	/^    timestr ( TIMEDIFF, [ STYLE, [ FORMAT ] ] )$
+timesum	benchmark.man	/^    timesum ( T1, T2 )$
+timethese	benchmark.man	/^    timethese ( COUNT, CODEHASHREF, [ STYLE ] )$
+timethis	benchmark.man	/^    timethis ( COUNT, CODE, [ TITLE, [ STYLE ]] )$
+todo_skip	testmore.man	/^    todo_skip$
+tr	perlfunc.man	/^    tr///   The transliteration operator. Same as "y///". See "Quote and$
+truncate	perlfunc.man	/^    truncate FILEHANDLE,LENGTH$
+try	error.man	/^    try BLOCK CLAUSES$
+tz2zone	timezone.man	/^    "tz2zone()" parses the TZ environment variable and returns a timezone$
+tz_local_offset	timezone.man	/^    "tz_local_offset()" determins the offset from GMT time in seconds. It$
+tz_name	timezone.man	/^    "tz_name()" determines the name of the timezone based on its offset$
+tz_offset	timezone.man	/^    "tz_offset()" determines the offset from GMT in seconds of a specified$
+u	perlfunc.man	/^                -u  File has setuid bit set.$
+uc	perlfunc.man	/^    uc EXPR$
+ucfirst	perlfunc.man	/^    ucfirst EXPR$
+umask	perlfunc.man	/^    umask EXPR$
+undef	perlfunc.man	/^    undef EXPR$
+unexpand	texttabs.man	/^      @lines_with_tabs = unexpand(@lines_without_tabs);$
+unlike	testmore.man	/^    unlike$
+unlink	perlfunc.man	/^    unlink LIST$
+unlock_hash	hashutil.man	/^    unlock_hash$
+unlock_hashref	hashutil.man	/^    unlock_hashref$
+unlock_hashref_recurse	hashutil.man	/^    unlock_hashref_recurse$
+unlock_hash_recurse	hashutil.man	/^    unlock_hash_recurse$
+unlock_keys	hashutil.man	/^    unlock_keys$
+unlock_ref_keys	hashutil.man	/^    unlock_ref_keys$
+unlock_ref_value	hashutil.man	/^    unlock_ref_value$
+unlock_value	hashutil.man	/^    unlock_value$
+unpack	perlfunc.man	/^    unpack TEMPLATE,EXPR$
+unshift	perlfunc.man	/^    unshift ARRAY,LIST$
+untie	perlfunc.man	/^    untie VARIABLE$
+use	perlfunc.man	/^    use Module VERSION LIST$
+use_ok	testmore.man	/^    use_ok$
+utime	perlfunc.man	/^    utime LIST$
+validate	filechecktree.man	/^        $num_warnings = validate( q{$
+values	perlfunc.man	/^    values HASH$
+vec	perlfunc.man	/^    vec EXPR,OFFSET,BITS$
+w	perlfunc.man	/^                -w  File is writable by effective uid/gid.$
+W	perlfunc.man	/^                -W  File is writable by real uid/gid.$
+wait	perlfunc.man	/^    wait    Behaves like the wait(2) system call on your system: it waits$
+waitpid	perlfunc.man	/^    waitpid PID,FLAGS$
+wantarray	perlfunc.man	/^    wantarray$
+warn	perlfunc.man	/^    warn LIST$
+weaken	scalarutil.man	/^    weaken REF$
+wrap	textwrap.man	/^    "Text::Wrap::wrap()" is a very simple paragraph formatter. It formats a$
+write	perlfunc.man	/^    write FILEHANDLE$
+X	perlfunc.man	/^                -X  File is executable by real uid/gid.$
+x	perlfunc.man	/^                -x  File is executable by effective uid/gid.$
+y	perlfunc.man	/^    y///    The transliteration operator. Same as "tr///". See "Quote and$
+z	perlfunc.man	/^                -z  File has zero size (is empty).$
