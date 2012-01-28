@@ -1,0 +1,31 @@
+NAME
+    Time::Zone -- miscellaneous timezone manipulations routines
+
+SYNOPSIS
+            use Time::Zone;
+            print tz2zone();
+            print tz2zone($ENV{'TZ'});
+            print tz2zone($ENV{'TZ'}, time());
+            print tz2zone($ENV{'TZ'}, undef, $isdst);
+            $offset = tz_local_offset();
+            $offset = tz_offset($TZ);
+
+DESCRIPTION
+    This is a collection of miscellaneous timezone manipulation routines.
+
+    "tz2zone()" parses the TZ environment variable and returns a timezone
+    string suitable for inclusion in date(1)-like output. It opionally takes
+    a timezone string, a time, and a is-dst flag.
+
+    "tz_local_offset()" determins the offset from GMT time in seconds. It
+    only does the calculation once.
+
+    "tz_offset()" determines the offset from GMT in seconds of a specified
+    timezone.
+
+    "tz_name()" determines the name of the timezone based on its offset
+
+AUTHORS
+    Graham Barr <gbarr@pobox.com> David Muir Sharnoff <muir@idiom.com> Paul
+    Foley <paul@ascent.com>
+
