@@ -1,0 +1,70 @@
+*TagmaTags.txt*	For Vim version 7.x.	Last Change: Sat, Dec 31, 2011
+
+			 Plugin to display Tool Tips.
+		    https://github.com/LStinson/TagmaTags
+		       By Lorance Stinson AT Gmail ...
+
+Programming Documentation Tags			*TagmaTags*
+
+Contents:
+	Description				|TagmaTags-description|
+	Installation				|TagmaTags-installation|
+	Usage					|TagmaTags-usage|
+	Perl Support				|TagmaTags-perl|
+
+
+This plugin uses the Tool Tip / Balloon functionality of Vim to display Tool
+Tips for code. Currently only Awl, Tcl and Vim are supported.
+
+==============================================================================
+DESCRIPTION					*TagmaTags-description*
+
+This plugin uses the Vim |tags| functionality to enable looking up
+documentation for a programming language.
+
+A set of documentation for the programming language is stored in a
+subdirectory. The tags file in that directory links programming language terms
+to the documentation. This allows the use of Vims tag functions to lookup
+terms in the documentation. For example when editing a Perl file placing the
+cursor over the function "print" will load the file perlfunc.man and jump to
+the definition for "print",
+
+This works via a file type plugin. When editing a supported file type the tags
+file for the language is added to the end of the buffer local tags list.
+
+==============================================================================
+INSTALLATION					*TagmaTags-installation*
+
+Copy the files to your ~/.vim or ~/vimfiles directory.
+If using a package manager like pathogen place the whole directory in the
+bundle directory.
+ 
+==============================================================================
+USAGE						*TagmaTags-usage*
+
+The normal Vim tag navigation commands and key mappings are used to jump to
+the documentation. See the help section |tags| for specific details.
+
+Handy key mappings: ~
+
+CTRL-]			Jump to the tag under the cursor. The documentation
+			will be opened in the current window.
+
+{Visual}CTRL-]		Similar to CTRL-] but jumps to the tag visually
+			selected.
+
+CTRL-W }		Jumps to the tag under the cursor. The documentation
+			will be opened in the preview window.
+
+==============================================================================
+PERL SUPPORT					*TagmaTags-perl*
+
+The perl documentation is located in the perldocs/ subdirectoy in .man files.
+Documentation for perlfunc, perlvar, Pragmas and many standarf functional
+modules is present.
+
+The Perl documentation can be regenerated from your local Perl installation
+using the program gen_perldocs.pl located in the perldocs/ subdirectory. This
+program uses the perldoc program to generate the .man files and the tags file.
+
+ vim:ts=8 sw=8 noexpandtab tw=78 ft=help:
