@@ -1,4 +1,4 @@
-*TagmaTags.txt*	For Vim version 7.x.	Last Change: Sat, Dec 31, 2011
+*TagmaTags.txt*	For Vim version 7.x.	Last Change: Sun, Jan 29, 2012
 
 			 Plugin to display Tool Tips.
 		    https://github.com/LStinson/TagmaTags
