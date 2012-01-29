@@ -1,4 +1,147 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+!	perlvar.man	/^    $!      If used numerically, yields the current value of the C "errno"$
+"	perlvar.man	/^    $"      This is like $, except that it applies to array and slice values$
+$	perlvar.man	/^    $$      The process number of the Perl running this script. You should$
+$!	perlvar.man	/^    $!      If used numerically, yields the current value of the C "errno"$
+$"	perlvar.man	/^    $"      This is like $, except that it applies to array and slice values$
+$$	perlvar.man	/^    $$      The process number of the Perl running this script. You should$
+$%	perlvar.man	/^    $%      The current page number of the currently selected output$
+$&	perlvar.man	/^    $&      The string matched by the last successful pattern match (not$
+$'	perlvar.man	/^    $'      The string following whatever was matched by the last successful$
+$(	perlvar.man	/^    $(      The real gid of this process. If you are on a machine that$
+$)	perlvar.man	/^    $)      The effective gid of this process. If you are on a machine that$
+$+	perlvar.man	/^    $+      The text matched by the last bracket of the last successful$
+$,	perlvar.man	/^    $,      The output field separator for the print operator. If defined,$
+$-	perlvar.man	/^    $-      The number of lines left on the page of the currently selected$
+$.	perlvar.man	/^    $.      Current line number for the last filehandle accessed.$
+$/	perlvar.man	/^    $/      The input record separator, newline by default. This influences$
+$0	perlvar.man	/^    $0      Contains the name of the program being executed.$
+$:	perlvar.man	/^    $:      The current set of characters after which a string may be broken$
+$;	perlvar.man	/^    $;      The subscript separator for multidimensional array emulation. If$
+$<	perlvar.man	/^    $<      The real uid of this process. (Mnemonic: it's the uid you came$
+$<*digits*>	perlvar.man	/^    $<*digits*>$
+$=	perlvar.man	/^    $=      The current page length (printable lines) of the currently$
+$>	perlvar.man	/^    $>      The effective uid of this process. Example:$
+$?	perlvar.man	/^    $?      The status returned by the last pipe close, backtick (``)$
+$?.	perlvar.man	/^    $?.$
+$@	perlvar.man	/^    $@      The Perl syntax error message from the last eval() operator. If$
+$a	perlvar.man	/^    $a$
+$ACCUMULATOR	perlvar.man	/^    $ACCUMULATOR$
+$ARG	perlvar.man	/^    $ARG$
+$ARGV	perlvar.man	/^    $ARGV   contains the name of the current file when reading from <>.$
+$b	perlvar.man	/^    $b      Special package variables when using sort(), see "sort" in$
+$BASETIME	perlvar.man	/^    $BASETIME$
+$CHILD_ERROR	perlvar.man	/^    $CHILD_ERROR$
+$COMPILING	perlvar.man	/^    $COMPILING$
+$DEBUGGING	perlvar.man	/^    $DEBUGGING$
+$EFFECTIVE_GROUP_ID	perlvar.man	/^    $EFFECTIVE_GROUP_ID$
+$EFFECTIVE_USER_ID	perlvar.man	/^    $EFFECTIVE_USER_ID$
+$EGID	perlvar.man	/^    $EGID$
+$ENV	perlvar.man	/^    $ENV{expr}$
+$ERRNO	perlvar.man	/^    $ERRNO$
+$EUID	perlvar.man	/^    $EUID$
+$EVAL_ERROR	perlvar.man	/^    $EVAL_ERROR$
+$EXCEPTIONS_BEING_CAUGHT	perlvar.man	/^    $EXCEPTIONS_BEING_CAUGHT$
+$EXECUTABLE_NAME	perlvar.man	/^    $EXECUTABLE_NAME$
+$EXTENDED_OS_ERROR	perlvar.man	/^    $EXTENDED_OS_ERROR$
+$FORMAT_FORMFEED	perlvar.man	/^    $FORMAT_FORMFEED$
+$FORMAT_LINES_LEFT	perlvar.man	/^    $FORMAT_LINES_LEFT$
+$FORMAT_LINES_PER_PAGE	perlvar.man	/^    $FORMAT_LINES_PER_PAGE$
+$FORMAT_LINE_BREAK_CHARACTERS	perlvar.man	/^    $FORMAT_LINE_BREAK_CHARACTERS$
+$FORMAT_NAME	perlvar.man	/^    $FORMAT_NAME$
+$FORMAT_PAGE_NUMBER	perlvar.man	/^    $FORMAT_PAGE_NUMBER$
+$FORMAT_TOP_NAME	perlvar.man	/^    $FORMAT_TOP_NAME$
+$GID	perlvar.man	/^    $GID$
+$INPLACE_EDIT	perlvar.man	/^    $INPLACE_EDIT$
+$INPUT_LINE_NUMBER	perlvar.man	/^    $INPUT_LINE_NUMBER$
+$INPUT_RECORD_SEPARATOR	perlvar.man	/^    $INPUT_RECORD_SEPARATOR$
+$LAST_PAREN_MATCH	perlvar.man	/^    $LAST_PAREN_MATCH$
+$LAST_REGEXP_CODE_RESULT	perlvar.man	/^    $LAST_REGEXP_CODE_RESULT$
+$LAST_SUBMATCH_RESULT	perlvar.man	/^    $LAST_SUBMATCH_RESULT$
+$LIST_SEPARATOR	perlvar.man	/^    $LIST_SEPARATOR$
+$MATCH	perlvar.man	/^    $MATCH$
+$NR	perlvar.man	/^    $NR$
+$OFS	perlvar.man	/^    $OFS$
+$ORS	perlvar.man	/^    $ORS$
+$OSNAME	perlvar.man	/^    $OSNAME$
+$OS_ERROR	perlvar.man	/^    $OS_ERROR$
+$OUTPUT_AUTOFLUSH	perlvar.man	/^    $OUTPUT_AUTOFLUSH$
+$OUTPUT_FIELD_SEPARATOR	perlvar.man	/^    $OUTPUT_FIELD_SEPARATOR$
+$OUTPUT_RECORD_SEPARATOR	perlvar.man	/^    $OUTPUT_RECORD_SEPARATOR$
+$PERLDB	perlvar.man	/^    $PERLDB$
+$PERL_VERSION	perlvar.man	/^    $PERL_VERSION$
+$PID	perlvar.man	/^    $PID$
+$POSTMATCH	perlvar.man	/^    $POSTMATCH$
+$PREMATCH	perlvar.man	/^    $PREMATCH$
+$PROCESS_ID	perlvar.man	/^    $PROCESS_ID$
+$PROGRAM_NAME	perlvar.man	/^    $PROGRAM_NAME$
+$REAL_GROUP_ID	perlvar.man	/^    $REAL_GROUP_ID$
+$REAL_USER_ID	perlvar.man	/^    $REAL_USER_ID$
+$RS	perlvar.man	/^    $RS$
+$SIG	perlvar.man	/^    $SIG{expr}$
+$SUBSCRIPT_SEPARATOR	perlvar.man	/^    $SUBSCRIPT_SEPARATOR$
+$SUBSEP	perlvar.man	/^    $SUBSEP$
+$SYSTEM_FD_MAX	perlvar.man	/^    $SYSTEM_FD_MAX$
+$UID	perlvar.man	/^    $UID$
+$WARNING	perlvar.man	/^    $WARNING$
+$[	perlvar.man	/^    $[      The index of the first element in an array, and of the first$
+$\	perlvar.man	/^    $\      The output record separator for the print operator. If defined,$
+$]	perlvar.man	/^    $]      The version + patchlevel / 1000 of the Perl interpreter. This$
+$^	perlvar.man	/^    $^      The name of the current top-of-page format for the currently$
+$^A	perlvar.man	/^    $^A     The current value of the write() accumulator for format() lines.$
+$^C	perlvar.man	/^    $^C     The current value of the flag associated with the -c switch.$
+$^D	perlvar.man	/^    $^D     The current value of the debugging flags. (Mnemonic: value of -D$
+$^E	perlvar.man	/^    $^E     Error information specific to the current operating system. At$
+$^F	perlvar.man	/^    $^F     The maximum system file descriptor, ordinarily 2. System file$
+$^H	perlvar.man	/^    $^H     WARNING: This variable is strictly for internal use only. Its$
+$^I	perlvar.man	/^    $^I     The current value of the inplace-edit extension. Use "undef" to$
+$^L	perlvar.man	/^    $^L     What formats output as a form feed. Default is \f.$
+$^M	perlvar.man	/^    $^M     By default, running out of memory is an untrappable, fatal$
+$^N	perlvar.man	/^    $^N     The text matched by the used group most-recently closed (i.e.$
+$^O	perlvar.man	/^    $^O     The name of the operating system under which this copy of Perl$
+$^P	perlvar.man	/^    $^P     The internal variable for debugging support. The meanings of the$
+$^R	perlvar.man	/^    $^R     The result of evaluation of the last successful "(?{ code })"$
+$^S	perlvar.man	/^    $^S     Current state of the interpreter.$
+$^T	perlvar.man	/^    $^T     The time at which the program began running, in seconds since$
+$^V	perlvar.man	/^    $^V     The revision, version, and subversion of the Perl interpreter,$
+$^W	perlvar.man	/^    $^W     The current value of the warning switch, initially true if -w$
+$^X	perlvar.man	/^    $^X     The name used to execute the current copy of Perl, from C's$
+$_	perlvar.man	/^    $_      The default input and pattern-searching space. The following$
+$`	perlvar.man	/^    $`      The string preceding whatever was matched by the last successful$
+${^CHILD_ERROR_NATIVE}	perlvar.man	/^    ${^CHILD_ERROR_NATIVE}$
+${^ENCODING}	perlvar.man	/^    ${^ENCODING}$
+${^MATCH}	perlvar.man	/^    ${^MATCH}$
+${^OPEN}	perlvar.man	/^    ${^OPEN}$
+${^POSTMATCH}	perlvar.man	/^    ${^POSTMATCH}$
+${^PREMATCH}	perlvar.man	/^    ${^PREMATCH}$
+${^RE_DEBUG_FLAGS}	perlvar.man	/^    ${^RE_DEBUG_FLAGS}$
+${^RE_TRIE_MAXBUF}	perlvar.man	/^    ${^RE_TRIE_MAXBUF}$
+${^TAINT}	perlvar.man	/^    ${^TAINT}$
+${^UNICODE}	perlvar.man	/^    ${^UNICODE}$
+${^UTF8CACHE}	perlvar.man	/^    ${^UTF8CACHE}$
+${^UTF8LOCALE}	perlvar.man	/^    ${^UTF8LOCALE}$
+${^WARNING_BITS}	perlvar.man	/^    ${^WARNING_BITS}$
+${^WIN32_SLOPPY_STAT}	perlvar.man	/^    ${^WIN32_SLOPPY_STAT}$
+$|	perlvar.man	/^    $|      If set to nonzero, forces a flush right away and after every$
+$~	perlvar.man	/^    $~      The name of the current report format for the currently selected$
+%	perlvar.man	/^    $%      The current page number of the currently selected output$
+%!	perlvar.man	/^    %!      Each element of "%!" has a true value only if $! is set to that$
+%+	perlvar.man	/^    %+      Similar to "@+", the "%+" hash allows access to the named$
+%-	perlvar.man	/^    %-      Similar to "%+", this variable allows access to the named$
+%ENV	perlvar.man	/^    %ENV$
+%ERRNO	perlvar.man	/^    %ERRNO$
+%INC	perlvar.man	/^    %INC    The hash %INC contains entries for each filename included via$
+%LAST_PAREN_MATCH	perlvar.man	/^    %LAST_PAREN_MATCH$
+%OS_ERROR	perlvar.man	/^    %OS_ERROR$
+%SIG	perlvar.man	/^    %SIG$
+%^H	perlvar.man	/^    %^H     The %^H hash provides the same scoping semantic as $^H. This$
+&	perlvar.man	/^    $&      The string matched by the last successful pattern match (not$
+'	perlvar.man	/^    $'      The string following whatever was matched by the last successful$
+(	perlvar.man	/^    $(      The real gid of this process. If you are on a machine that$
+)	perlvar.man	/^    $)      The effective gid of this process. If you are on a machine that$
++	perlvar.man	/^    $+      The text matched by the last bracket of the last successful$
+,	perlvar.man	/^    $,      The output field separator for the print operator. If defined,$
+-	perlvar.man	/^    $-      The number of lines left on the page of the currently selected$
 -A	perlfunc.man	/^                -A  Same for access time.$
 -B	perlfunc.man	/^                -B  File is a "binary" file (opposite of -T).$
 -b	perlfunc.man	/^                -b  File is a block special file.$
@@ -11,13 +154,13 @@
 -k	perlfunc.man	/^                -k  File has sticky bit set.$
 -l	perlfunc.man	/^                -l  File is a symbolic link.$
 -M	perlfunc.man	/^                -M  Script start time minus file modification time, in days.$
--O	perlfunc.man	/^                -O  File is owned by real uid.$
 -o	perlfunc.man	/^                -o  File is owned by effective uid.$
+-O	perlfunc.man	/^                -O  File is owned by real uid.$
 -p	perlfunc.man	/^                -p  File is a named pipe (FIFO), or Filehandle is a pipe.$
 -r	perlfunc.man	/^                -r  File is readable by effective uid/gid.$
 -R	perlfunc.man	/^                -R  File is readable by real uid/gid.$
--s	perlfunc.man	/^                -s  File has nonzero size (returns size in bytes).$
 -S	perlfunc.man	/^                -S  File is a socket.$
+-s	perlfunc.man	/^                -s  File has nonzero size (returns size in bytes).$
 -t	perlfunc.man	/^                -t  Filehandle is opened to a tty.$
 -T	perlfunc.man	/^                -T  File is an ASCII text file (heuristic guess).$
 -u	perlfunc.man	/^                -u  File has setuid bit set.$
@@ -26,26 +169,62 @@
 -x	perlfunc.man	/^                -x  File is executable by effective uid/gid.$
 -X	perlfunc.man	/^                -X  File is executable by real uid/gid.$
 -z	perlfunc.man	/^                -z  File has zero size (is empty).$
+.	perlvar.man	/^    $.      Current line number for the last filehandle accessed.$
+/	perlvar.man	/^    $/      The input record separator, newline by default. This influences$
+0	perlvar.man	/^    $0      Contains the name of the program being executed.$
+:	perlvar.man	/^    $:      The current set of characters after which a string may be broken$
+;	perlvar.man	/^    $;      The subscript separator for multidimensional array emulation. If$
+<	perlvar.man	/^    $<      The real uid of this process. (Mnemonic: it's the uid you came$
+<*digits*>	perlvar.man	/^    $<*digits*>$
+=	perlvar.man	/^    $=      The current page length (printable lines) of the currently$
+>	perlvar.man	/^    $>      The effective uid of this process. Example:$
+?	perlvar.man	/^    $?      The status returned by the last pipe close, backtick (``)$
+?.	perlvar.man	/^    $?.$
+@	perlvar.man	/^    $@      The Perl syntax error message from the last eval() operator. If$
+@+	perlvar.man	/^    @+      This array holds the offsets of the ends of the last successful$
+@-	perlvar.man	/^    @-      $-[0] is the offset of the start of the last successful match.$
+@ARG	perlvar.man	/^    @ARG$
+@ARGV	perlvar.man	/^    @ARGV   The array @ARGV contains the command-line arguments intended for$
+@F	perlvar.man	/^    @F      The array @F contains the fields of each line read in when$
+@INC	perlvar.man	/^    @INC    The array @INC contains the list of places that the "do EXPR",$
+@LAST_MATCH_END	perlvar.man	/^    @LAST_MATCH_END$
+@LAST_MATCH_START	perlvar.man	/^    @LAST_MATCH_START$
+@_	perlvar.man	/^    @_      Within a subroutine the array @_ contains the parameters passed$
+a	perlvar.man	/^    $a$
 A	perlfunc.man	/^                -A  Same for access time.$
 abbrev	textabbrev.man	/^        abbrev $hashref, LIST$
 abs	perlfunc.man	/^    abs VALUE$
 abs_path	cwd.man	/^    abs_path$
 accept	perlfunc.man	/^    accept NEWSOCKET,GENERICSOCKET$
+ACCUMULATOR	perlvar.man	/^    $ACCUMULATOR$
 alarm	perlfunc.man	/^    alarm SECONDS$
 all_keys	hashutil.man	/^    all_keys$
+ARG	perlvar.man	/^    $ARG$
+ARGV	perlvar.man	/^    $ARGV   contains the name of the current file when reading from <>.$
 atan2	perlfunc.man	/^    atan2 Y,X$
+attributes	pragmaattributes.man	/^    attributes - get/set subroutine or variable attributes$
+attrs	pragmaattrs.man	/^    attrs - set/get attributes of a subroutine (deprecated)$
+autodie	pragmaautodie.man	/^    autodie - Replace functions with ones that succeed or die with lexical$
 autosplit	autosplit.man	/^     autosplit($file, $dir, $keep, $check, $modtime);$
 autosplit_lib_modules	autosplit.man	/^     autosplit_lib_modules(@modules);$
-B	perlfunc.man	/^                -B  File is a "binary" file (opposite of -T).$
+autouse	pragmaautouse.man	/^    autouse - postpone load of modules until a function is used$
 b	perlfunc.man	/^                -b  File is a block special file.$
+B	perlfunc.man	/^                -B  File is a "binary" file (opposite of -T).$
 BAIL_OUT	testmore.man	/^    BAIL_OUT$
+base	pragmabase.man	/^    base - Establish an ISA relationship with base classes at compile time$
 basename	filebasename.man	/^    "basename"$
+BASETIME	perlvar.man	/^    $BASETIME$
+bigint	pragmabigint.man	/^    bigint - Transparent BigInteger support for Perl$
+bignum	pragmabignum.man	/^    bignum - Transparent BigNumber support for Perl$
+bigrat	pragmabigrat.man	/^    bigrat - Transparent BigNumber/BigRational support for Perl$
 bind	perlfunc.man	/^    bind SOCKET,NAME$
 binmode	perlfunc.man	/^    binmode FILEHANDLE, LAYER$
 bless	perlfunc.man	/^    bless REF,CLASSNAME$
 blessed	scalarutil.man	/^    blessed EXPR$
+blib	pragmablib.man	/^    blib - Use MakeMaker's uninstalled version of a package$
 break	perlfunc.man	/^    break   Break out of a "given()" block.$
 builder	testmore.man	/^    builder$
+bytes	pragmabytes.man	/^    bytes - Perl pragma to force byte semantics rather than character$
 C	perlfunc.man	/^                -C  Same for inode change time (Unix, may differ for other platforms)$
 c	perlfunc.man	/^                -c  File is a character special file.$
 caller	perlfunc.man	/^    caller EXPR$
@@ -53,7 +232,9 @@ can_ok	testmore.man	/^    can_ok$
 carp	carp.man	/^    carp - warn of errors (from perspective of caller)$
 case	switch.man	/^            case 1          { print "number 1" }$
 catch	error.man	/^    catch CLASS with BLOCK$
+charnames	pragmacharnames.man	/^    charnames - define character names for "\N{named}" string literal$
 chdir	perlfunc.man	/^    chdir EXPR$
+CHILD_ERROR	perlvar.man	/^    $CHILD_ERROR$
 chmod	perlfunc.man	/^    chmod LIST$
 chomp	perlfunc.man	/^    chomp VARIABLE$
 chop	perlfunc.man	/^    chop VARIABLE$
@@ -70,8 +251,10 @@ cmpthese	benchmark.man	/^    cmpthese ( COUNT, CODEHASHREF, [ STYLE ] )$
 cmp_ok	testmore.man	/^    cmp_ok$
 compare	filecompare.man	/^    The File::Compare::compare function compares the contents of two$
 compare_text	filecompare.man	/^    File::Compare::compare_text does a line by line comparison of the two$
+COMPILING	perlvar.man	/^    $COMPILING$
 confess	carp.man	/^    confess - die of errors with stack backtrace$
 connect	perlfunc.man	/^    connect SOCKET,NAME$
+constant	pragmaconstant.man	/^    constant - Perl pragma to declare constants$
 continue	perlfunc.man	/^    continue BLOCK$
 copy	filecopy.man	/^    copy$
 cos	perlfunc.man	/^    cos EXPR$
@@ -82,11 +265,13 @@ cwd	cwd.man	/^    cwd$
 d	perlfunc.man	/^                -d  File is a directory.$
 dbmclose	perlfunc.man	/^    dbmclose HASH$
 dbmopen	perlfunc.man	/^    dbmopen HASH,DBNAME,MASK$
+DEBUGGING	perlvar.man	/^    $DEBUGGING$
 defined	perlfunc.man	/^    defined EXPR$
 delete	perlfunc.man	/^    delete EXPR$
 delete_package	symbol.man	/^    "Symbol::delete_package" wipes out a whole package namespace. Note this$
 delimited_pat	textbalanced.man	/^  "delimited_pat"$
 diag	testmore.man	/^    diag$
+diagnostics	pragmadiagnostics.man	/^$
 die	perlfunc.man	/^    die LIST$
 dirname	filebasename.man	/^    "dirname"$
 disablecache	benchmark.man	/^    disablecache ( )$
@@ -97,26 +282,37 @@ dump	perlfunc.man	/^    dump LABEL$
 Dumper	datadumper.man	/^        print Dumper($foo, $bar);$
 e	perlfunc.man	/^                -e  File exists.$
 each	perlfunc.man	/^    each HASH$
+EFFECTIVE_GROUP_ID	perlvar.man	/^    $EFFECTIVE_GROUP_ID$
+EFFECTIVE_USER_ID	perlvar.man	/^    $EFFECTIVE_USER_ID$
+EGID	perlvar.man	/^    $EGID$
 enablecache	benchmark.man	/^    enablecache ( )$
+encoding	pragmaencoding.man	/^    encoding - allows you to write your script in non-ascii or non-utf8$
 endgrent	perlfunc.man	/^    endgrent$
 endhostent	perlfunc.man	/^    endhostent$
 endnetent	perlfunc.man	/^    endnetent$
 endprotoent	perlfunc.man	/^    endprotoent$
 endpwent	perlfunc.man	/^    endpwent$
 endservent	perlfunc.man	/^    endservent$
+ENV	perlvar.man	/^    %ENV$
 eof	perlfunc.man	/^    eof FILEHANDLE$
 eq_array	testmore.man	/^    eq_array$
 eq_hash	testmore.man	/^    eq_hash$
 eq_set	testmore.man	/^    eq_set$
+ERRNO	perlvar.man	/^    $ERRNO$
+EUID	perlvar.man	/^    $EUID$
 eval	perlfunc.man	/^    eval EXPR$
+EVAL_ERROR	perlvar.man	/^    $EVAL_ERROR$
 except	error.man	/^    except BLOCK$
+EXCEPTIONS_BEING_CAUGHT	perlvar.man	/^    $EXCEPTIONS_BEING_CAUGHT$
 exec	perlfunc.man	/^    exec LIST$
+EXECUTABLE_NAME	perlvar.man	/^    $EXECUTABLE_NAME$
 execute_tests	testharness.man	/^  execute_tests( tests => \@test_files, out => \*FH )$
 exists	perlfunc.man	/^    exists EXPR$
 exit	perlfunc.man	/^    exit EXPR$
 exp	perlfunc.man	/^    exp EXPR$
 expand	texttabs.man	/^      @lines_without_tabs = expand(@lines_with_tabs);$
 explain	testmore.man	/^    explain$
+EXTENDED_OS_ERROR	perlvar.man	/^    $EXTENDED_OS_ERROR$
 extract_bracketed	textbalanced.man	/^  "extract_bracketed"$
 extract_codeblock	textbalanced.man	/^  "extract_codeblock"$
 extract_delimited	textbalanced.man	/^  "extract_delimited"$
@@ -124,15 +320,19 @@ extract_multiple	textbalanced.man	/^  "extract_multiple"$
 extract_quotelike	textbalanced.man	/^  "extract_quotelike"$
 extract_tagged	textbalanced.man	/^  "extract_tagged"$
 extract_variable	textbalanced.man	/^  "extract_variable"$
+F	perlvar.man	/^    @F      The array @F contains the fields of each line read in when$
 f	perlfunc.man	/^                -f  File is a plain file.$
 fail	testmore.man	/^    fail$
 fastcwd	cwd.man	/^    fastcwd$
 fastgetcwd	cwd.man	/^    fastgetcwd$
 fast_abs_path	cwd.man	/^    fast_abs_path$
 fcntl	perlfunc.man	/^    fcntl FILEHANDLE,FUNCTION,SCALAR$
+feature	pragmafeature.man	/^    feature - Perl pragma to enable new syntactic features$
+fields	pragmafields.man	/^    fields - compile-time class fields$
 fileno	perlfunc.man	/^    fileno FILEHANDLE$
 fileparse	filebasename.man	/^    "fileparse"$
 fileparse_set_fstype	filebasename.man	/^    "fileparse_set_fstype"$
+filetest	pragmafiletest.man	/^    filetest - Perl pragma to control the filetest permission operators$
 fill	textwrap.man	/^    Text::Wrap::fill() is a simple multi-paragraph formatter. It formats$
 finally	error.man	/^    finally BLOCK$
 find	filefind.man	/^        find(\&wanted, @directories_to_search);$
@@ -141,6 +341,13 @@ first	listutil.man	/^    first BLOCK LIST$
 flock	perlfunc.man	/^    flock FILEHANDLE,OPERATION$
 fork	perlfunc.man	/^    fork    Does a fork(2) system call to create a new process running the$
 format	perlfunc.man	/^    format  Declare a picture format for use by the "write" function. For$
+FORMAT_FORMFEED	perlvar.man	/^    $FORMAT_FORMFEED$
+FORMAT_LINES_LEFT	perlvar.man	/^    $FORMAT_LINES_LEFT$
+FORMAT_LINES_PER_PAGE	perlvar.man	/^    $FORMAT_LINES_PER_PAGE$
+FORMAT_LINE_BREAK_CHARACTERS	perlvar.man	/^    $FORMAT_LINE_BREAK_CHARACTERS$
+FORMAT_NAME	perlvar.man	/^    $FORMAT_NAME$
+FORMAT_PAGE_NUMBER	perlvar.man	/^    $FORMAT_PAGE_NUMBER$
+FORMAT_TOP_NAME	perlvar.man	/^    $FORMAT_TOP_NAME$
 formline	perlfunc.man	/^    formline PICTURE,LIST$
 g	perlfunc.man	/^                -g  File has setgid bit set.$
 geniosym	symbol.man	/^    "Symbol::geniosym" creates an anonymous IO handle. This can be assigned$
@@ -178,6 +385,7 @@ getservbyport	perlfunc.man	/^    getservbyport PORT,PROTO$
 getservent	perlfunc.man	/^    getservent$
 getsockname	perlfunc.man	/^    getsockname SOCKET$
 getsockopt	perlfunc.man	/^    getsockopt SOCKET,LEVEL,OPTNAME$
+GID	perlvar.man	/^    $GID$
 glob	perlfunc.man	/^    glob EXPR$
 gmtime	perlfunc.man	/^    gmtime EXPR$
 goto	perlfunc.man	/^    goto LABEL$
@@ -189,9 +397,15 @@ hex	perlfunc.man	/^    hex EXPR$
 hidden_keys	hashutil.man	/^    hidden_keys$
 hidden_ref_keys	hashutil.man	/^    hidden_ref_keys$
 hv_store	hashutil.man	/^    hv_store$
+if	pragmaif.man	/^    if - "use" a Perl module if a condition holds$
 import	perlfunc.man	/^    import LIST$
+INC	perlvar.man	/^    @INC    The array @INC contains the list of places that the "do EXPR",$
 index	perlfunc.man	/^    index STR,SUBSTR,POSITION$
+INPLACE_EDIT	perlvar.man	/^    $INPLACE_EDIT$
+INPUT_LINE_NUMBER	perlvar.man	/^    $INPUT_LINE_NUMBER$
+INPUT_RECORD_SEPARATOR	perlvar.man	/^    $INPUT_RECORD_SEPARATOR$
 int	perlfunc.man	/^    int EXPR$
+integer	pragmainteger.man	/^    integer - Perl pragma to use integer arithmetic instead of floating$
 ioctl	perlfunc.man	/^    ioctl FILEHANDLE,FUNCTION,SCALAR$
 is	testmore.man	/^    is$
 isa_ok	testmore.man	/^    isa_ok$
@@ -205,15 +419,24 @@ keys	perlfunc.man	/^    keys HASH$
 kill	perlfunc.man	/^    kill SIGNAL, LIST$
 l	perlfunc.man	/^                -l  File is a symbolic link.$
 last	perlfunc.man	/^    last LABEL$
+LAST_MATCH_END	perlvar.man	/^    @LAST_MATCH_END$
+LAST_MATCH_START	perlvar.man	/^    @LAST_MATCH_START$
+LAST_PAREN_MATCH	perlvar.man	/^    $LAST_PAREN_MATCH$
+LAST_REGEXP_CODE_RESULT	perlvar.man	/^    $LAST_REGEXP_CODE_RESULT$
+LAST_SUBMATCH_RESULT	perlvar.man	/^    $LAST_SUBMATCH_RESULT$
 lc	perlfunc.man	/^    lc EXPR$
 lcfirst	perlfunc.man	/^    lcfirst EXPR$
 legal_keys	hashutil.man	/^    legal_keys$
 legal_ref_keys	hashutil.man	/^    legal_ref_keys$
 length	perlfunc.man	/^    length EXPR$
+less	pragmaless.man	/^    less - perl pragma to request less of something$
+lib	pragmalib.man	/^    lib - manipulate @INC at compile time$
 like	testmore.man	/^    like$
 link	perlfunc.man	/^    link OLDFILE,NEWFILE$
 listen	perlfunc.man	/^    listen SOCKET,QUEUESIZE$
+LIST_SEPARATOR	perlvar.man	/^    $LIST_SEPARATOR$
 local	perlfunc.man	/^    local EXPR$
+locale	pragmalocale.man	/^    locale - Perl pragma to use and avoid POSIX locales for built-in$
 localtime	perlfunc.man	/^    localtime EXPR$
 lock	perlfunc.man	/^    lock THING$
 lock_hash	hashutil.man	/^    lock_hash$
@@ -234,13 +457,18 @@ M	perlfunc.man	/^                -M  Script start time minus file modification t
 m	perlfunc.man	/^    m//     The match operator. See "Regexp Quote-Like Operators" in perlop.$
 make_path	filepath.man	/^    make_path( $dir1, $dir2, .... )$
 map	perlfunc.man	/^    map BLOCK LIST$
+MATCH	perlvar.man	/^    $MATCH$
 max	listutil.man	/^    max LIST$
 maxstr	listutil.man	/^    maxstr LIST$
+mblen	textcharwidth.man	/^      mblen(string);$
+mbswidth	textcharwidth.man	/^      mbswidth(string);$
+mbwidth	textcharwidth.man	/^      mbwidth(string);$
 min	listutil.man	/^    min LIST$
 minstr	listutil.man	/^    minstr LIST$
 mkdir	perlfunc.man	/^    mkdir FILENAME,MASK$
 mkpath	filepath.man	/^    mkpath( $dir )$
 move	filecopy.man	/^    move$
+mro	pragmamro.man	/^    mro - Method Resolution Order$
 msgctl	perlfunc.man	/^    msgctl ID,CMD,ARG$
 msgget	perlfunc.man	/^    msgget KEY,FLAGS$
 msgrcv	perlfunc.man	/^    msgrcv ID,VAR,SIZE,TYPE,FLAGS$
@@ -250,31 +478,64 @@ nested_quotewords	textparsewords.man	/^      @lists = nested_quotewords($delim, 
 new_ok	testmore.man	/^    new_ok$
 next	perlfunc.man	/^    next LABEL$
 no	perlfunc.man	/^    no Module VERSION LIST$
+no autodie	pragmaautodie.man	/^    autodie - Replace functions with ones that succeed or die with lexical$
+no bigint	pragmabigint.man	/^    bigint - Transparent BigInteger support for Perl$
+no bignum	pragmabignum.man	/^    bignum - Transparent BigNumber support for Perl$
+no bigrat	pragmabigrat.man	/^    bigrat - Transparent BigNumber/BigRational support for Perl$
+no bytes	pragmabytes.man	/^    bytes - Perl pragma to force byte semantics rather than character$
+no encoding	pragmaencoding.man	/^    encoding - allows you to write your script in non-ascii or non-utf8$
+no lib	pragmalib.man	/^    lib - manipulate @INC at compile time$
+no overloading	pragmaoverloading.man	/^    overloading - perl pragma to lexically control overloading$
+no re	pragmare.man	/^    re - Perl pragma to alter regular expression behaviour$
+no sort	pragmasort.man	/^    sort - perl pragma to control sort() behaviour$
+no strict	pragmastrict.man	/^    strict - Perl pragma to restrict unsafe constructs$
+no utf8	pragmautf8.man	/^    utf8 - Perl pragma to enable/disable UTF-8 (or UTF-EBCDIC) in source$
+no vmsish	pragmavmsish.man	/^    vmsish - Perl pragma to control VMS-specific language features$
+no warnings	pragmawarnings.man	/^    warnings - Perl pragma to control optional warnings$
 note	testmore.man	/^    note$
+NR	perlvar.man	/^    $NR$
 o	perlfunc.man	/^                -o  File is owned by effective uid.$
 O	perlfunc.man	/^                -O  File is owned by real uid.$
 oct	perlfunc.man	/^    oct EXPR$
+OFS	perlvar.man	/^    $OFS$
 ok	test.man	/^    "ok(...)"$
 old_shellwords	textparsewords.man	/^      @words = old_shellwords(@lines); # DEPRECATED!$
 open	perlfunc.man	/^    open FILEHANDLE,EXPR$
 opendir	perlfunc.man	/^    opendir DIRHANDLE,EXPR$
 openhandle	scalarutil.man	/^    openhandle FH$
+ops	pragmaops.man	/^    ops - Perl pragma to restrict unsafe operations when compiling$
 or	testmore.man	/^    or$
 ord	perlfunc.man	/^    ord EXPR$
+ORS	perlvar.man	/^    $ORS$
+OSNAME	perlvar.man	/^    $OSNAME$
+OS_ERROR	perlvar.man	/^    $OS_ERROR$
 otherwise	error.man	/^    otherwise BLOCK$
 our	perlfunc.man	/^    our EXPR$
+OUTPUT_AUTOFLUSH	perlvar.man	/^    $OUTPUT_AUTOFLUSH$
+OUTPUT_FIELD_SEPARATOR	perlvar.man	/^    $OUTPUT_FIELD_SEPARATOR$
+OUTPUT_RECORD_SEPARATOR	perlvar.man	/^    $OUTPUT_RECORD_SEPARATOR$
+overload	pragmaoverload.man	/^    overload - Package for overloading Perl operations$
+overloading	pragmaoverloading.man	/^    overloading - perl pragma to lexically control overloading$
 p	perlfunc.man	/^                -p  File is a named pipe (FIFO), or Filehandle is a pipe.$
 pack	perlfunc.man	/^    pack TEMPLATE,LIST$
 package	perlfunc.man	/^    package NAMESPACE$
+parent	pragmaparent.man	/^    parent - Establish an ISA relationship with base classes at compile time$
 parse_dir	filelisting.man	/^     $dir = parse_dir(\*LISTING, '+0000');$
 parse_line	textparsewords.man	/^      @words = parse_line($delim, $keep, $line);$
 pass	testmore.man	/^    pass$
+PERLDB	perlvar.man	/^    $PERLDB$
+PERL_VERSION	perlvar.man	/^    $PERL_VERSION$
+PID	perlvar.man	/^    $PID$
 pipe	perlfunc.man	/^    pipe READHANDLE,WRITEHANDLE$
 plan	test.man	/^    "plan(...)"$
 pop	perlfunc.man	/^    pop ARRAY$
 pos	perlfunc.man	/^    pos SCALAR$
+POSTMATCH	perlvar.man	/^    $POSTMATCH$
+PREMATCH	perlvar.man	/^    $PREMATCH$
 print	perlfunc.man	/^    print FILEHANDLE LIST$
 printf	perlfunc.man	/^    printf FILEHANDLE FORMAT, LIST$
+PROCESS_ID	perlvar.man	/^    $PROCESS_ID$
+PROGRAM_NAME	perlvar.man	/^    $PROGRAM_NAME$
 prototype	perlfunc.man	/^    prototype FUNCTION$
 push	perlfunc.man	/^    push ARRAY,LIST$
 q	perlfunc.man	/^    q/STRING/$
@@ -289,6 +550,7 @@ qx	perlfunc.man	/^    qx/STRING/$
 R	perlfunc.man	/^                -R  File is readable by real uid/gid.$
 r	perlfunc.man	/^                -r  File is readable by effective uid/gid.$
 rand	perlfunc.man	/^    rand EXPR$
+re	pragmare.man	/^    re - Perl pragma to alter regular expression behaviour$
 read	perlfunc.man	/^    read FILEHANDLE,SCALAR,LENGTH,OFFSET$
 readdir	perlfunc.man	/^    readdir DIRHANDLE$
 readline	perlfunc.man	/^    readline EXPR$
@@ -296,6 +558,8 @@ readlink	perlfunc.man	/^    readlink EXPR$
 readonly	scalarutil.man	/^    readonly SCALAR$
 readpipe	perlfunc.man	/^    readpipe EXPR$
 realpath	cwd.man	/^    realpath$
+REAL_GROUP_ID	perlvar.man	/^    $REAL_GROUP_ID$
+REAL_USER_ID	perlvar.man	/^    $REAL_USER_ID$
 recv	perlfunc.man	/^    recv SOCKET,SCALAR,LENGTH,FLAGS$
 redo	perlfunc.man	/^    redo LABEL$
 reduce	listutil.man	/^    reduce BLOCK LIST$
@@ -314,9 +578,10 @@ rindex	perlfunc.man	/^    rindex STR,SUBSTR,POSITION$
 rmdir	perlfunc.man	/^    rmdir FILENAME$
 rmscopy	filecopy.man	/^    rmscopy($from,$to[,$date_flag])$
 rmtree	filepath.man	/^    rmtree( $dir )$
+RS	perlvar.man	/^    $RS$
 runtests	testharness.man	/^  runtests( @test_files )$
 S	perlfunc.man	/^                -S  File is a socket.$
-s	perlfunc.man	/^    s///    The substitution operator. See "Regexp Quote-Like Operators" in$
+s	perlfunc.man	/^                -s  File has nonzero size (returns size in bytes).$
 say	perlfunc.man	/^    say FILEHANDLE LIST$
 scalar	perlfunc.man	/^    scalar EXPR$
 seek	perlfunc.man	/^    seek FILEHANDLE,POSITION,WHENCE$
@@ -344,6 +609,8 @@ shmread	perlfunc.man	/^    shmread ID,VAR,POS,SIZE$
 shmwrite	perlfunc.man	/^    shmwrite ID,STRING,POS,SIZE$
 shuffle	listutil.man	/^    shuffle LIST$
 shutdown	perlfunc.man	/^    shutdown SOCKET,HOW$
+SIG	perlvar.man	/^    %SIG$
+sigtrap	pragmasigtrap.man	/^    sigtrap - Perl pragma to enable simple signal handling$
 sin	perlfunc.man	/^    sin EXPR$
 skip	test.man	/^    "skip(...)". By default, all three are exported by the "use Test;"$
 sleep	perlfunc.man	/^    sleep EXPR$
@@ -359,9 +626,13 @@ sqrt	perlfunc.man	/^    sqrt EXPR$
 srand	perlfunc.man	/^    srand EXPR$
 stat	perlfunc.man	/^    stat FILEHANDLE$
 state	perlfunc.man	/^    state EXPR$
+strict	pragmastrict.man	/^    strict - Perl pragma to restrict unsafe constructs$
 struct	classstruct.man	/^                # declare struct, based on array:$
 study	perlfunc.man	/^    study SCALAR$
 sub	perlfunc.man	/^    sub NAME BLOCK$
+subs	pragmasubs.man	/^    subs - Perl pragma to predeclare sub names$
+SUBSCRIPT_SEPARATOR	perlvar.man	/^    $SUBSCRIPT_SEPARATOR$
+SUBSEP	perlvar.man	/^    $SUBSEP$
 substr	perlfunc.man	/^    substr EXPR,OFFSET,LENGTH,REPLACEMENT$
 sum	listutil.man	/^    sum LIST$
 switch	switch.man	/^        switch ($val) {$
@@ -372,6 +643,7 @@ sysopen	perlfunc.man	/^    sysopen FILEHANDLE,FILENAME,MODE$
 sysread	perlfunc.man	/^    sysread FILEHANDLE,SCALAR,LENGTH,OFFSET$
 sysseek	perlfunc.man	/^    sysseek FILEHANDLE,POSITION,WHENCE$
 system	perlfunc.man	/^    system LIST$
+SYSTEM_FD_MAX	perlvar.man	/^    $SYSTEM_FD_MAX$
 syswrite	perlfunc.man	/^    syswrite FILEHANDLE,SCALAR,LENGTH,OFFSET$
 T	perlfunc.man	/^                -T  File is an ASCII text file (heuristic guess).$
 t	perlfunc.man	/^                -t  Filehandle is opened to a tty.$
@@ -380,6 +652,7 @@ tell	perlfunc.man	/^    tell FILEHANDLE$
 telldir	perlfunc.man	/^    telldir DIRHANDLE$
 tempdir	filetemp.man	/^    tempdir$
 tempfile	filetemp.man	/^    tempfile$
+threads	pragmathreads.man	/^    threads - Perl interpreter-based threads$
 tie	perlfunc.man	/^    tie VARIABLE,CLASSNAME,LIST$
 tied	perlfunc.man	/^    tied VARIABLE$
 time	perlfunc.man	/^    time    Returns the number of non-leap seconds since whatever time the$
@@ -401,6 +674,7 @@ tz_offset	timezone.man	/^    "tz_offset()" determines the offset from GMT in sec
 u	perlfunc.man	/^                -u  File has setuid bit set.$
 uc	perlfunc.man	/^    uc EXPR$
 ucfirst	perlfunc.man	/^    ucfirst EXPR$
+UID	perlvar.man	/^    $UID$
 umask	perlfunc.man	/^    umask EXPR$
 undef	perlfunc.man	/^    undef EXPR$
 unexpand	texttabs.man	/^      @lines_with_tabs = unexpand(@lines_without_tabs);$
@@ -418,17 +692,62 @@ unpack	perlfunc.man	/^    unpack TEMPLATE,EXPR$
 unshift	perlfunc.man	/^    unshift ARRAY,LIST$
 untie	perlfunc.man	/^    untie VARIABLE$
 use	perlfunc.man	/^    use Module VERSION LIST$
+use attributes	pragmaattributes.man	/^    attributes - get/set subroutine or variable attributes$
+use attrs	pragmaattrs.man	/^    attrs - set/get attributes of a subroutine (deprecated)$
+use autodie	pragmaautodie.man	/^    autodie - Replace functions with ones that succeed or die with lexical$
+use autouse	pragmaautouse.man	/^    autouse - postpone load of modules until a function is used$
+use base	pragmabase.man	/^    base - Establish an ISA relationship with base classes at compile time$
+use bigint	pragmabigint.man	/^    bigint - Transparent BigInteger support for Perl$
+use bignum	pragmabignum.man	/^    bignum - Transparent BigNumber support for Perl$
+use bigrat	pragmabigrat.man	/^    bigrat - Transparent BigNumber/BigRational support for Perl$
+use blib	pragmablib.man	/^    blib - Use MakeMaker's uninstalled version of a package$
+use bytes	pragmabytes.man	/^    bytes - Perl pragma to force byte semantics rather than character$
+use charnames	pragmacharnames.man	/^    charnames - define character names for "\N{named}" string literal$
+use constant	pragmaconstant.man	/^    constant - Perl pragma to declare constants$
+use diagnostics	pragmadiagnostics.man	/^$
+use encoding	pragmaencoding.man	/^    encoding - allows you to write your script in non-ascii or non-utf8$
+use feature	pragmafeature.man	/^    feature - Perl pragma to enable new syntactic features$
+use fields	pragmafields.man	/^    fields - compile-time class fields$
+use filetest	pragmafiletest.man	/^    filetest - Perl pragma to control the filetest permission operators$
+use if	pragmaif.man	/^    if - "use" a Perl module if a condition holds$
+use integer	pragmainteger.man	/^    integer - Perl pragma to use integer arithmetic instead of floating$
+use less	pragmaless.man	/^    less - perl pragma to request less of something$
+use lib	pragmalib.man	/^    lib - manipulate @INC at compile time$
+use locale	pragmalocale.man	/^    locale - Perl pragma to use and avoid POSIX locales for built-in$
+use mro	pragmamro.man	/^    mro - Method Resolution Order$
+use open	pragmaopen.man	/^    open - perl pragma to set default PerlIO layers for input and output$
+use ops	pragmaops.man	/^    ops - Perl pragma to restrict unsafe operations when compiling$
+use overload	pragmaoverload.man	/^    overload - Package for overloading Perl operations$
+use overloading	pragmaoverloading.man	/^    overloading - perl pragma to lexically control overloading$
+use parent	pragmaparent.man	/^    parent - Establish an ISA relationship with base classes at compile time$
+use re	pragmare.man	/^    re - Perl pragma to alter regular expression behaviour$
+use sigtrap	pragmasigtrap.man	/^    sigtrap - Perl pragma to enable simple signal handling$
+use sort	pragmasort.man	/^    sort - perl pragma to control sort() behaviour$
+use strict	pragmastrict.man	/^    strict - Perl pragma to restrict unsafe constructs$
+use subs	pragmasubs.man	/^    subs - Perl pragma to predeclare sub names$
+use threads	pragmathreads.man	/^    threads - Perl interpreter-based threads$
+use utf8	pragmautf8.man	/^    utf8 - Perl pragma to enable/disable UTF-8 (or UTF-EBCDIC) in source$
+use vars	pragmavars.man	/^    vars - Perl pragma to predeclare global variable names (obsolete)$
+use version	pragmaversion.man	/^    version - Perl extension for Version Objects$
+use vmsish	pragmavmsish.man	/^    vmsish - Perl pragma to control VMS-specific language features$
+use warnings	pragmawarnings.man	/^    warnings - Perl pragma to control optional warnings$
 use_ok	testmore.man	/^    use_ok$
+utf8	pragmautf8.man	/^    utf8 - Perl pragma to enable/disable UTF-8 (or UTF-EBCDIC) in source$
 utime	perlfunc.man	/^    utime LIST$
 validate	filechecktree.man	/^        $num_warnings = validate( q{$
 values	perlfunc.man	/^    values HASH$
+vars	pragmavars.man	/^    vars - Perl pragma to predeclare global variable names (obsolete)$
 vec	perlfunc.man	/^    vec EXPR,OFFSET,BITS$
+version	pragmaversion.man	/^    version - Perl extension for Version Objects$
+vmsish	pragmavmsish.man	/^    vmsish - Perl pragma to control VMS-specific language features$
 w	perlfunc.man	/^                -w  File is writable by effective uid/gid.$
 W	perlfunc.man	/^                -W  File is writable by real uid/gid.$
 wait	perlfunc.man	/^    wait    Behaves like the wait(2) system call on your system: it waits$
 waitpid	perlfunc.man	/^    waitpid PID,FLAGS$
 wantarray	perlfunc.man	/^    wantarray$
 warn	perlfunc.man	/^    warn LIST$
+WARNING	perlvar.man	/^    $WARNING$
+warnings	pragmawarnings.man	/^    warnings - Perl pragma to control optional warnings$
 weaken	scalarutil.man	/^    weaken REF$
 wrap	textwrap.man	/^    "Text::Wrap::wrap()" is a very simple paragraph formatter. It formats a$
 write	perlfunc.man	/^    write FILEHANDLE$
@@ -436,3 +755,29 @@ X	perlfunc.man	/^                -X  File is executable by real uid/gid.$
 x	perlfunc.man	/^                -x  File is executable by effective uid/gid.$
 y	perlfunc.man	/^    y///    The transliteration operator. Same as "tr///". See "Quote and$
 z	perlfunc.man	/^                -z  File has zero size (is empty).$
+[	perlvar.man	/^    $[      The index of the first element in an array, and of the first$
+\	perlvar.man	/^    $\      The output record separator for the print operator. If defined,$
+]	perlvar.man	/^    $]      The version + patchlevel / 1000 of the Perl interpreter. This$
+^	perlvar.man	/^    $^      The name of the current top-of-page format for the currently$
+^A	perlvar.man	/^    $^A     The current value of the write() accumulator for format() lines.$
+^C	perlvar.man	/^    $^C     The current value of the flag associated with the -c switch.$
+^D	perlvar.man	/^    $^D     The current value of the debugging flags. (Mnemonic: value of -D$
+^E	perlvar.man	/^    $^E     Error information specific to the current operating system. At$
+^F	perlvar.man	/^    $^F     The maximum system file descriptor, ordinarily 2. System file$
+^H	perlvar.man	/^    $^H     WARNING: This variable is strictly for internal use only. Its$
+^I	perlvar.man	/^    $^I     The current value of the inplace-edit extension. Use "undef" to$
+^L	perlvar.man	/^    $^L     What formats output as a form feed. Default is \f.$
+^M	perlvar.man	/^    $^M     By default, running out of memory is an untrappable, fatal$
+^N	perlvar.man	/^    $^N     The text matched by the used group most-recently closed (i.e.$
+^O	perlvar.man	/^    $^O     The name of the operating system under which this copy of Perl$
+^P	perlvar.man	/^    $^P     The internal variable for debugging support. The meanings of the$
+^R	perlvar.man	/^    $^R     The result of evaluation of the last successful "(?{ code })"$
+^S	perlvar.man	/^    $^S     Current state of the interpreter.$
+^T	perlvar.man	/^    $^T     The time at which the program began running, in seconds since$
+^V	perlvar.man	/^    $^V     The revision, version, and subversion of the Perl interpreter,$
+^W	perlvar.man	/^    $^W     The current value of the warning switch, initially true if -w$
+^X	perlvar.man	/^    $^X     The name used to execute the current copy of Perl, from C's$
+_	perlvar.man	/^    $_      The default input and pattern-searching space. The following$
+`	perlvar.man	/^    $`      The string preceding whatever was matched by the last successful$
+|	perlvar.man	/^    $|      If set to nonzero, forces a flush right away and after every$
+~	perlvar.man	/^    $~      The name of the current report format for the currently selected$

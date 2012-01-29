@@ -1,0 +1,29 @@
+NAME
+    vars - Perl pragma to predeclare global variable names (obsolete)
+
+SYNOPSIS
+        use vars qw($frob @mung %seen);
+
+DESCRIPTION
+    NOTE: For variables in the current package, the functionality provided
+    by this pragma has been superseded by "our" declarations, available in
+    Perl v5.6.0 or later. See "our" in perlfunc.
+
+    This will predeclare all the variables whose names are in the list,
+    allowing you to use them under "use strict", and disabling any typo
+    warnings.
+
+    Unlike pragmas that affect the $^H hints variable, the "use vars" and
+    "use subs" declarations are not BLOCK-scoped. They are thus effective
+    for the entire file in which they appear. You may not rescind such
+    declarations with "no vars" or "no subs".
+
+    Packages such as the AutoLoader and SelfLoader that delay loading of
+    subroutines within packages can create problems with package lexicals
+    defined using "my()". While the vars pragma cannot duplicate the effect
+    of package lexicals (total transparency outside of the package), it can
+    act as an acceptable substitute by pre-declaring global symbols,
+    ensuring their availability to the later-loaded routines.
+
+    See "Pragmatic Modules" in perlmodlib.
+

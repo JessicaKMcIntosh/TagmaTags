@@ -1,0 +1,19 @@
+NAME
+    subs - Perl pragma to predeclare sub names
+
+SYNOPSIS
+        use subs qw(frob);
+        frob 3..10;
+
+DESCRIPTION
+    This will predeclare all the subroutine whose names are in the list,
+    allowing you to use them without parentheses even before they're
+    declared.
+
+    Unlike pragmas that affect the $^H hints variable, the "use vars" and
+    "use subs" declarations are not BLOCK-scoped. They are thus effective
+    for the entire file in which they appear. You may not rescind such
+    declarations with "no vars" or "no subs".
+
+    See "Pragmatic Modules" in perlmodlib and "strict subs" in strict.
+

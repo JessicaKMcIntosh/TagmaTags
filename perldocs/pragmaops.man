@@ -1,0 +1,19 @@
+NAME
+    ops - Perl pragma to restrict unsafe operations when compiling
+
+SYNOPSIS
+      perl -Mops=:default ...    # only allow reasonably safe operations
+
+      perl -M-ops=system ...     # disable the 'system' opcode
+
+DESCRIPTION
+    Since the "ops" pragma currently has an irreversible global effect, it
+    is only of significant practical use with the "-M" option on the command
+    line.
+
+    See the Opcode module for information about opcodes, optags, opmasks and
+    important information about safety.
+
+SEE ALSO
+    Opcode, Safe, perlrun
+

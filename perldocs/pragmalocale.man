@@ -1,0 +1,21 @@
+NAME
+    locale - Perl pragma to use and avoid POSIX locales for built-in
+    operations
+
+SYNOPSIS
+        @x = sort @y;       # ASCII sorting order
+        {
+            use locale;
+            @x = sort @y;   # Locale-defined sorting order
+        }
+        @x = sort @y;       # ASCII sorting order again
+
+DESCRIPTION
+    This pragma tells the compiler to enable (or disable) the use of POSIX
+    locales for built-in operations (LC_CTYPE for regular expressions, and
+    LC_COLLATE for string comparison). Each "use locale" or "no locale"
+    affects statements to the end of the enclosing BLOCK.
+
+    See perllocale for more detailed information on how Perl supports
+    locales.
+
