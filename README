@@ -1,20 +1,14 @@
-*TagmaTags.txt*	For Vim version 7.x.	Last Change: Sun, Jan 29, 2012
-
-			 Plugin to display Tool Tips.
+*TagmaTags.txt*	Use the tags feature to lookup documentation.
+			     For Vim version 7.x.
+		  Last Changed: Fri Feb 03 12:43 PM 2012 EST
 		    https://github.com/LStinson/TagmaTags
 		       By Lorance Stinson AT Gmail ...
 
-Programming Documentation Tags			*TagmaTags*
-
-Contents:
+Contents:					*TagmaTags*
 	Description				|TagmaTags-description|
 	Installation				|TagmaTags-installation|
 	Usage					|TagmaTags-usage|
 	Perl Support				|TagmaTags-perl|
-
-
-This plugin uses the Tool Tip / Balloon functionality of Vim to display Tool
-Tips for code. Currently only Awl, Tcl and Vim are supported.
 
 ==============================================================================
 DESCRIPTION					*TagmaTags-description*
