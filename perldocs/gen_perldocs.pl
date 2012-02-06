@@ -11,6 +11,11 @@ use strict;
 # name and the search pattern.
 my %tags = ();
 
+# Hash of module name tags.
+# Keys are module names. Values are file names.
+# These are added to the %tags hash last to prevent name conflicts.
+my %name_tags = ();
+
 # Generate the tags for perlfunc.man.
 # NOTE: Process this first so basic functions override all other tags.
 &gen_perlfunc;
@@ -123,13 +128,19 @@ my %tags = ();
 &gen_perlvar;
 
 # Generate the tags for pragmas.
-# NOTE: These are processes late to give preference to other
+# NOTE: These are processed late to give preference to other
 # modules/functions/variables.
 &gen_pragmas;
 
 # Generate the tags for posix.man.
 # NOTE: Process this last since POSIX repeats functions.
 &gen_section ('POSIX', 'posix.man', 'FUNCTIONS');
+
+# Add the tags from %name_tags to %tags.
+# Make sure to avoid possible name clashes.
+for my $name (keys (%name_tags)) {
+    $tags{$name} = [$name_tags{$name}, 1] unless exists ($tags{$name});
+}
 
 # Write the tags file.
 &write_tags;
@@ -166,7 +177,7 @@ sub add_tag {
 #               Must contain one capture returning the tag name.
 #
 # Result:
-#   None
+#   1 on success and 0 on error.
 #
 # Side effect:
 #   Creates the manual file.
@@ -180,18 +191,18 @@ sub gen_section {
 
     # Read the documentation.
     open (my $pdh, '-|', 'perldoc -t -T ' . $doc) or
-        die "Could not read from perldoc: $!\n";
-    return 0 if $?;
+        die "Could not read from perldoc for '$doc': $!\n";
 
     # Create the file.
     open (my $manh, '>', $file) or
-        die "Could not create the $file file: $!\n";
+        die "Could not create the file '$file': $!\n";
 
     # Process the documentation.
-    my ($found) = (0);
+    my ($found, $lines) = (0, 0);
     while (defined (my $line = <$pdh>)) {
         # Write the line to the manual file.
         print $manh $line;
+        ++$lines;
 
         # See if the section has been found.
         chomp ($line);
@@ -213,6 +224,15 @@ sub gen_section {
     # Close filehandles.
     close ($pdh);
     close ($manh);
+
+    # If nothing was read from perldoc delete the file.
+    if ($lines == 0) {
+        unlink ($file);
+        return 0;
+    }
+
+    # Add the module name to the %name_tags hash.
+    $name_tags{$doc} = $file;
 
     return 1;
 } # }}}1

@@ -205,6 +205,7 @@ atan2	perlfunc.man	/^    atan2 Y,X$
 attributes	pragmaattributes.man	/^    attributes - get/set subroutine or variable attributes$
 attrs	pragmaattrs.man	/^    attrs - set/get attributes of a subroutine (deprecated)$
 autodie	pragmaautodie.man	/^    autodie - Replace functions with ones that succeed or die with lexical$
+AutoSplit	autosplit.man	1
 autosplit	autosplit.man	/^     autosplit($file, $dir, $keep, $check, $modtime);$
 autosplit_lib_modules	autosplit.man	/^     autosplit_lib_modules(@modules);$
 autouse	pragmaautouse.man	/^    autouse - postpone load of modules until a function is used$
@@ -214,6 +215,7 @@ BAIL_OUT	testmore.man	/^    BAIL_OUT$
 base	pragmabase.man	/^    base - Establish an ISA relationship with base classes at compile time$
 basename	filebasename.man	/^    "basename"$
 BASETIME	perlvar.man	/^    $BASETIME$
+Benchmark	benchmark.man	1
 bigint	pragmabigint.man	/^    bigint - Transparent BigInteger support for Perl$
 bignum	pragmabignum.man	/^    bignum - Transparent BigNumber support for Perl$
 bigrat	pragmabigrat.man	/^    bigrat - Transparent BigNumber/BigRational support for Perl$
@@ -230,6 +232,7 @@ c	perlfunc.man	/^                -c  File is a character special file.$
 caller	perlfunc.man	/^    caller EXPR$
 can_ok	testmore.man	/^    can_ok$
 carp	carp.man	/^    carp - warn of errors (from perspective of caller)$
+Carp	carp.man	1
 case	switch.man	/^            case 1          { print "number 1" }$
 catch	error.man	/^    catch CLASS with BLOCK$
 charnames	pragmacharnames.man	/^    charnames - define character names for "\N{named}" string literal$
@@ -241,6 +244,7 @@ chop	perlfunc.man	/^    chop VARIABLE$
 chown	perlfunc.man	/^    chown LIST$
 chr	perlfunc.man	/^    chr NUMBER$
 chroot	perlfunc.man	/^    chroot FILENAME$
+Class::Struct	classstruct.man	1
 clearallcache	benchmark.man	/^    clearallcache ( )$
 clearcache	benchmark.man	/^    clearcache ( COUNT )$
 close	perlfunc.man	/^    close FILEHANDLE$
@@ -262,7 +266,9 @@ countit	benchmark.man	/^    countit(TIME, CODE)$
 croak	carp.man	/^    croak - die of errors (from perspective of caller)$
 crypt	perlfunc.man	/^    crypt PLAINTEXT,SALT$
 cwd	cwd.man	/^    cwd$
+Cwd	cwd.man	1
 d	perlfunc.man	/^                -d  File is a directory.$
+Data::Dumper	datadumper.man	1
 dbmclose	perlfunc.man	/^    dbmclose HASH$
 dbmopen	perlfunc.man	/^    dbmopen HASH,DBNAME,MASK$
 DEBUGGING	perlvar.man	/^    $DEBUGGING$
@@ -299,6 +305,7 @@ eq_array	testmore.man	/^    eq_array$
 eq_hash	testmore.man	/^    eq_hash$
 eq_set	testmore.man	/^    eq_set$
 ERRNO	perlvar.man	/^    $ERRNO$
+Error	error.man	1
 EUID	perlvar.man	/^    $EUID$
 eval	perlfunc.man	/^    eval EXPR$
 EVAL_ERROR	perlvar.man	/^    $EVAL_ERROR$
@@ -329,6 +336,14 @@ fast_abs_path	cwd.man	/^    fast_abs_path$
 fcntl	perlfunc.man	/^    fcntl FILEHANDLE,FUNCTION,SCALAR$
 feature	pragmafeature.man	/^    feature - Perl pragma to enable new syntactic features$
 fields	pragmafields.man	/^    fields - compile-time class fields$
+File::Basename	filebasename.man	1
+File::CheckTree	filechecktree.man	1
+File::Compare	filecompare.man	1
+File::Copy	filecopy.man	1
+File::Find	filefind.man	1
+File::Listing	filelisting.man	1
+File::Path	filepath.man	1
+File::Temp	filetemp.man	1
 fileno	perlfunc.man	/^    fileno FILEHANDLE$
 fileparse	filebasename.man	/^    "fileparse"$
 fileparse_set_fstype	filebasename.man	/^    "fileparse_set_fstype"$
@@ -368,6 +383,8 @@ getnetbyaddr	perlfunc.man	/^    getnetbyaddr ADDR,ADDRTYPE$
 getnetbyname	perlfunc.man	/^    getnetbyname NAME$
 getnetent	perlfunc.man	/^    getnetent$
 getopt	getoptstd.man	/^        getopt('oDI');    # -o, -D & -I take arg.  Sets $opt_* as a side effect.$
+Getopt::Long	getoptlong.man	1
+Getopt::Std	getoptstd.man	1
 GetOptions	getoptlong.man	/^      $result = GetOptions ("length=i" => \$length,    # numeric$
 getopts	getoptstd.man	/^        getopts('oif:');  # -o & -i are boolean flags, -f takes an argument$
 getpeername	perlfunc.man	/^    getpeername SOCKET$
@@ -390,6 +407,7 @@ glob	perlfunc.man	/^    glob EXPR$
 gmtime	perlfunc.man	/^    gmtime EXPR$
 goto	perlfunc.man	/^    goto LABEL$
 grep	perlfunc.man	/^    grep BLOCK LIST$
+Hash::Util	hashutil.man	1
 hash_ref_unlocked	hashutil.man	/^    hash_ref_unlocked$
 hash_seed	hashutil.man	/^    hash_seed$
 hash_unlocked	hashutil.man	/^    hash_unlocked$
@@ -433,6 +451,7 @@ less	pragmaless.man	/^    less - perl pragma to request less of something$
 lib	pragmalib.man	/^    lib - manipulate @INC at compile time$
 like	testmore.man	/^    like$
 link	perlfunc.man	/^    link OLDFILE,NEWFILE$
+List::Util	listutil.man	1
 listen	perlfunc.man	/^    listen SOCKET,QUEUESIZE$
 LIST_SEPARATOR	perlvar.man	/^    $LIST_SEPARATOR$
 local	perlfunc.man	/^    local EXPR$
@@ -530,6 +549,7 @@ pipe	perlfunc.man	/^    pipe READHANDLE,WRITEHANDLE$
 plan	test.man	/^    "plan(...)"$
 pop	perlfunc.man	/^    pop ARRAY$
 pos	perlfunc.man	/^    pos SCALAR$
+POSIX	posix.man	1
 POSTMATCH	perlvar.man	/^    $POSTMATCH$
 PREMATCH	perlvar.man	/^    $PREMATCH$
 print	perlfunc.man	/^    print FILEHANDLE LIST$
@@ -584,6 +604,8 @@ S	perlfunc.man	/^                -S  File is a socket.$
 s	perlfunc.man	/^                -s  File has nonzero size (returns size in bytes).$
 say	perlfunc.man	/^    say FILEHANDLE LIST$
 scalar	perlfunc.man	/^    scalar EXPR$
+Scalar::Util	scalarutil.man	1
+Search::Dict	searchdict.man	1
 seek	perlfunc.man	/^    seek FILEHANDLE,POSITION,WHENCE$
 seekdir	perlfunc.man	/^    seekdir DIRHANDLE,POS$
 select	perlfunc.man	/^    select FILEHANDLE$
@@ -636,6 +658,8 @@ SUBSEP	perlvar.man	/^    $SUBSEP$
 substr	perlfunc.man	/^    substr EXPR,OFFSET,LENGTH,REPLACEMENT$
 sum	listutil.man	/^    sum LIST$
 switch	switch.man	/^        switch ($val) {$
+Switch	switch.man	1
+Symbol	symbol.man	1
 symlink	perlfunc.man	/^    symlink OLDFILE,NEWFILE$
 syscall	perlfunc.man	/^    syscall NUMBER, LIST$
 syscopy	filecopy.man	/^    syscopy$
@@ -652,10 +676,21 @@ tell	perlfunc.man	/^    tell FILEHANDLE$
 telldir	perlfunc.man	/^    telldir DIRHANDLE$
 tempdir	filetemp.man	/^    tempdir$
 tempfile	filetemp.man	/^    tempfile$
+Test	test.man	1
+Test::Harness	testharness.man	1
+Test::More	testmore.man	1
+Text::Abbrev	textabbrev.man	1
+Text::Balanced	textbalanced.man	1
+Text::CharWidth	textcharwidth.man	1
+Text::ParseWords	textparsewords.man	1
+Text::Soundex	textsoundex.man	1
+Text::Tabs	texttabs.man	1
+Text::Wrap	textwrap.man	1
 threads	pragmathreads.man	/^    threads - Perl interpreter-based threads$
 tie	perlfunc.man	/^    tie VARIABLE,CLASSNAME,LIST$
 tied	perlfunc.man	/^    tied VARIABLE$
 time	perlfunc.man	/^    time    Returns the number of non-leap seconds since whatever time the$
+Time::Zone	timezone.man	1
 timediff	benchmark.man	/^    timediff ( T1, T2 )$
 timeit	benchmark.man	/^    timeit(COUNT, CODE)$
 times	perlfunc.man	/^    times   Returns a four-element list giving the user and system times, in$
