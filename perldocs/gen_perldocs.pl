@@ -3,6 +3,8 @@
 
 use warnings;
 use strict;
+use Getopt::Std;
+use POSIX qw(strftime);
 
 # Generates the Perl documentation and tags file.
 
@@ -15,6 +17,15 @@ my %tags = ();
 # Keys are module names. Values are file names.
 # These are added to the %tags hash last to prevent name conflicts.
 my %name_tags = ();
+
+# Configuration settings.
+my $config = {};
+
+# Process command line options.
+&process_opts;
+
+# Let the user know we are starting to generate documentation.
+&user_msg ("Generating documentation:", 1);
 
 # Generate the tags for perlfunc.man.
 # NOTE: Process this first so basic functions override all other tags.
@@ -136,6 +147,9 @@ my %name_tags = ();
 # NOTE: Process this last since POSIX repeats functions.
 &gen_section ('POSIX', 'posix.man', 'FUNCTIONS');
 
+# Let the user know we are generatig the tags.
+&user_msg ("Generating the tags file.", 1);
+
 # Add the tags from %name_tags to %tags.
 # Make sure to avoid possible name clashes.
 for my $name (keys (%name_tags)) {
@@ -188,6 +202,9 @@ sub gen_section {
     my ($doc, $section, $re) = @_;
     $re = qr/^\s{4}(\w+)/ unless defined ($re);
     (my $file = lc ($doc) . '.man') =~ s/://g;
+
+    # Let the user know what is going on.
+    &user_msg ("    $doc", 1);
 
     # Read the documentation.
     open (my $pdh, '-|', 'perldoc -t -T ' . $doc) or
@@ -249,6 +266,9 @@ sub gen_section {
 #   Creates the perlfunc.man file.
 #   Adds the tags to the %tags hash.
 sub gen_perlfunc {
+    # Let the user know what is going on.
+    &user_msg ("    perlfunc", 1);
+
     # Read the perlfunc documentation.
     open (my $pdh, '-|', 'perldoc -t -T perlfunc') or
         die "Could not read from perldoc: $!\n";
@@ -307,6 +327,9 @@ sub gen_perlfunc {
 #   Creates the perlvar.man file.
 #   Adds the tags to the %tags hash.
 sub gen_perlvar {
+    # Let the user know what is going on.
+    &user_msg ("    perlvar", 1);
+
     # Read the perlvar documentation.
     open (my $pdh, '-|', 'perldoc -t -T perlvar') or
         die "Could not read from perldoc: $!\n";
@@ -356,6 +379,9 @@ sub gen_perlvar {
 # Side effect:
 #   Calls gen_pragma_doc to generate the documentation file and tags.
 sub gen_pragmas {
+    # Let the user know what is going on.
+    &user_msg ("    perlmodlib", 1);
+
     # Read the documentation for perlmodlib to get the list of pragmas.
     open (my $pdh, '-|', 'perldoc -t -T perlmodlib') or
         die "Could not read from perldoc: $!\n";
@@ -406,6 +432,9 @@ sub gen_pragma_doc {
     my ($pragma) = @_;
     my $file = 'pragma' . lc ($pragma) . '.man';
 
+    # Let the user know what is going on.
+    &user_msg ("    Pragma: $pragma", 1);
+
     # Read the documentation.
     open (my $pdh, '-|', 'perldoc -t -T ' . $pragma) or
         die "Could not read from perldoc: $!\n";
@@ -446,6 +475,85 @@ sub gen_pragma_doc {
 
     return 1;
 } # }}}1
+
+# print_usage -- Print the usage text then exit. {{{1
+#
+# Arguments:
+#   None
+#
+# Result:
+#   None
+#
+# Side effect:
+#   Usage is printed and the script exits.
+sub print_usage {
+	warn "Usage: $0 [OPTIONS]\n";
+	warn "\n";
+	warn "Generates Perl documentation for TagmaTags.\n";
+	warn "Options:\n";
+	warn "    -h          This help text.\n";
+	warn "    -v          Verbose. List each document as it is generated.\n";
+	warn "\n";
+	exit 1;
+} # }}}}
+
+# process_opts -- Process the command line options. {{{1
+#
+# Arguments:
+#   None
+#
+# Result:
+#   None
+#
+# Side effect:
+#   Sets globals according to command line options.
+#   Exits with the usage text if the house is invalid.
+sub process_opts {
+    # Get the options.
+    my %opts = ();
+    &getopts ('hv',\%opts) or &print_usage;
+    &print_usage if exists ($opts{h});
+    $config->{verbose} = exists ($opts{v});
+
+    return 1;
+} # }}}
+
+# user_msg -- Display messages to the user. {{{1
+#   Displays a message with a timestamp.
+#
+# Arguments:
+#   message     Message to display to the user.
+#               Scalar or array reference.
+#   verbose     If true only print the message in verbose mode.
+#
+# Result:
+#   None
+#
+# Side effect:
+#   The message is printed.
+sub user_msg {
+    my ($message, $verbose) = @_;
+
+    # If verbose is set only print when in verbose mode.
+    return 0 if defined ($verbose) and $verbose and (!$config->{verbose});
+
+    # Make sure the message is an array ref.
+    if (ref ($message) eq '') {
+        $message = [$message];
+    }
+
+    # Print the messages.
+    for my $msg (@{$message}) {
+        chomp ($msg);
+        if ($msg eq '') {
+            print "\n"; # Blank lines do not get the timestamp.
+        } else {
+            print &strftime("%a %b %e %H:%M:%S", localtime()) . ": $msg\n";
+        }
+    }
+
+    return 1;
+} # }}}
 
 # write_tags -- Write the tags file from the %tags hash. {{{1
 #
