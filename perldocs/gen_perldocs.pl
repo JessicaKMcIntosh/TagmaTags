@@ -49,6 +49,9 @@ my $config = {};
 # Generate the tags for datadumper.man.
 &gen_section ('Data::Dumper', 'SYNOPSIS', qr/^\s{8}print\s+(Dumper)\(/);
 
+# Generate the tags for errno.man.
+&gen_section ('Errno', 'NAME');
+
 # Generate the tags for error.man.
 &gen_section ('Error', 'PROCEDURAL INTERFACE', qr/^\s{4}(\w+)\s+[[:upper:]]/);
 

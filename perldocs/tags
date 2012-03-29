@@ -305,6 +305,7 @@ eq_array	testmore.man	/^    eq_array$
 eq_hash	testmore.man	/^    eq_hash$
 eq_set	testmore.man	/^    eq_set$
 ERRNO	perlvar.man	/^    $ERRNO$
+Errno	errno.man	/^    Errno - System errno constants$
 Error	error.man	1
 EUID	perlvar.man	/^    $EUID$
 eval	perlfunc.man	/^    eval EXPR$

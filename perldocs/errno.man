@@ -1,0 +1,45 @@
+NAME
+    Errno - System errno constants
+
+SYNOPSIS
+        use Errno qw(EINTR EIO :POSIX);
+
+DESCRIPTION
+    "Errno" defines and conditionally exports all the error constants
+    defined in your system "errno.h" include file. It has a single export
+    tag, ":POSIX", which will export all POSIX defined error numbers.
+
+    "Errno" also makes "%!" magic such that each element of "%!" has a
+    non-zero value only if $! is set to that value. For example:
+
+        use Errno;
+
+        unless (open(FH, "/fangorn/spouse")) {
+            if ($!{ENOENT}) {
+                warn "Get a wife!\n";
+            } else {
+                warn "This path is barred: $!";
+            } 
+        }
+
+    If a specified constant "EFOO" does not exist on the system, $!{EFOO}
+    returns "". You may use "exists $!{EFOO}" to check whether the constant
+    is available on the system.
+
+CAVEATS
+    Importing a particular constant may not be very portable, because the
+    import will fail on platforms that do not have that constant. A more
+    portable way to set $! to a valid value is to use:
+
+        if (exists &Errno::EFOO) {
+            $! = &Errno::EFOO;
+        }
+
+AUTHOR
+    Graham Barr <gbarr@pobox.com>
+
+COPYRIGHT
+    Copyright (c) 1997-8 Graham Barr. All rights reserved. This program is
+    free software; you can redistribute it and/or modify it under the same
+    terms as Perl itself.
+
