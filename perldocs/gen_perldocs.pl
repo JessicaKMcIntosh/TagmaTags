@@ -148,7 +148,7 @@ my $config = {};
 
 # Generate the tags for posix.man.
 # NOTE: Process this last since POSIX repeats functions.
-&gen_section ('POSIX', 'posix.man', 'FUNCTIONS');
+&gen_section ('POSIX', 'FUNCTIONS', qr/^\s{4}(\w+)/);
 
 # Let the user know we are generatig the tags.
 &user_msg ("Generating the tags file.", 1);
