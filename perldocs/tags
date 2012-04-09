@@ -290,6 +290,7 @@ cwd	cwd.man	/^    cwd$
 Cwd	cwd.man	1
 d	perlfunc.man	/^                -d  File is a directory.$
 Data::Dumper	datadumper.man	1
+Data::Dumper->Dump	datadumper.man	/^        print Data::Dumper->Dump([$foo, $bar], [qw(foo *ary)]);$
 dbmclose	perlfunc.man	/^    dbmclose HASH$
 dbmopen	perlfunc.man	/^    dbmopen HASH,DBNAME,MASK$
 DEBUGGING	perlvar.man	/^    $DEBUGGING$

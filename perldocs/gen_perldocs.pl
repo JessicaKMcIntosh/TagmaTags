@@ -47,7 +47,7 @@ my $config = {};
 &gen_section ('Cwd', 'DESCRIPTION', qr/^\s{4}(\w*(?:cwd|path))$/);
 
 # Generate the tags for datadumper.man.
-&gen_section ('Data::Dumper', 'SYNOPSIS', qr/^\s{8}print\s+(Dumper)\(/);
+&gen_section ('Data::Dumper', 'SYNOPSIS', qr/^\s{8}print\s+([^(]+)\(/);
 
 # Generate the tags for errno.man.
 &gen_section ('Errno', 'NAME');
