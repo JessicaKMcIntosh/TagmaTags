@@ -510,7 +510,7 @@ sub print_usage {
 #
 # Side effect:
 #   Sets globals according to command line options.
-#   Exits with the usage text if the house is invalid.
+#   Exits with the usage text if help is requested.
 sub process_opts {
     # Get the options.
     my %opts = ();
