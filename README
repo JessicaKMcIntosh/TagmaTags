@@ -1,8 +1,8 @@
 *TagmaTags.txt*	Use the tags feature to lookup documentation.
 			     For Vim version 7.x.
-		  Last Changed: Fri Feb 03 12:43 PM 2012 EST
-		    https://github.com/LStinson/TagmaTags
-		       By Lorance Stinson AT Gmail ...
+		  Last Changed: Fri Nov 01 03:04 PM 2013 EDT
+	      https://github.com/JessicaKMcIntosh/TagmaTags.git
+		       By Jessica K McIntosh AT Gmail ...
 
 Contents:					*TagmaTags*
 	Description				|TagmaTags-description|
@@ -54,7 +54,7 @@ CTRL-W }		Jumps to the tag under the cursor. The documentation
 PERL SUPPORT					*TagmaTags-perl*
 
 The perl documentation is located in the perldocs/ subdirectoy in .man files.
-Documentation for perlfunc, perlvar, Pragmas and many standarf functional
+Documentation for perlfunc, perlvar, Pragmas and many standard functional
 modules is present.
 
 The Perl documentation can be regenerated from your local Perl installation

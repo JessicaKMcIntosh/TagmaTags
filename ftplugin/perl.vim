@@ -1,9 +1,9 @@
 " Tagma Tags Perl File Type Plugin
 " vim:foldmethod=marker
 " File:         ftplugin/perl.vim
-" Last Changed: Sun, Jan 1, 2012
-" Maintainer:   Lorance Stinson @ Gmail ...
-" Home:         https://github.com/LStinson/TagmaTags
+" Last Changed: Fri Nov 01 03:05 PM 2013 EDT
+" Maintainer:   Jessica K McIntosh @ Gmail ...
+" Home:         https://github.com/JessicaKMcIntosh/TagmaTags.git
 " License:      Public Domain
 "
 " Description:

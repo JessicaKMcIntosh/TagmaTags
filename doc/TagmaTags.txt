@@ -1,8 +1,8 @@
 *TagmaTags.txt*	Use the tags feature to lookup documentation.
 			     For Vim version 7.x.
-		  Last Changed: Fri Nov 01 02:37 PM 2013 EDT
-		    https://github.com/LStinson/TagmaTags
-		       By Lorance Stinson AT Gmail ...
+		  Last Changed: Fri Nov 01 03:04 PM 2013 EDT
+	      https://github.com/JessicaKMcIntosh/TagmaTags.git
+		       By Jessica K McIntosh AT Gmail ...
 
 Contents:					*TagmaTags*
 	Description				|TagmaTags-description|
