@@ -1,0 +1,34 @@
+NAME
+    deprecate - Perl pragma for deprecating the core version of a module
+
+SYNOPSIS
+        use deprecate;      # always deprecate the module in which this occurs
+
+        use if $] > 5.010, 'deprecate';     # conditionally deprecate the module
+
+DESCRIPTION
+    This module is used using "use deprecate;" (or something that calls
+    "deprecate->import()", for example "use if COND, deprecate;").
+
+    If the module that includes "use deprecate" is located in a core library
+    directory, a deprecation warning is issued, encouraging the user to use
+    the version on CPAN. If that module is located in a site library, it is
+    the CPAN version, and no warning is issued.
+
+  EXPORT
+    None by default. The only method is "import", called by "use
+    deprecate;".
+
+SEE ALSO
+    First example to "use deprecate;" was Switch.
+
+AUTHOR
+    Original version by Nicholas Clark
+
+COPYRIGHT AND LICENSE
+    Copyright (C) 2009, 2011
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself, either Perl version 5.10.0 or, at
+    your option, any later version of Perl 5 you may have available.
+
